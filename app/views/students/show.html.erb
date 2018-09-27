@@ -1,0 +1,35 @@
+        <div id="wb_LayoutGridInfoEstud">
+            <div id="LayoutGridInfoEstud">
+                <div class="row">
+                    <div class="col-1">
+                        <table style="display:table;width:100%;height:186px;z-index:0;" id="Table1">
+                            <tr>
+                                <td class="cell0"><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><br><strong>
+                                	<%= "Nombre: " + @student.nombres + " " + @student.apellidos %>
+                                </strong><br></span></td>
+                                <td class="cell0"><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><br><strong>
+                                	<%= "Promedio: " + @student.promedio_carrera.to_s %>
+                                </strong><br></span></td>
+                            </tr>
+                            <tr>
+                                <td class="cell0"><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><br><strong>Semestre:</strong><br></span></td>
+                                <td class="cell0"><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><br><strong>
+                                	<%= "Tipo: " %>
+                                	<%= 
+                                	if @student.es_egresado == 0
+                                		"Estudiante"
+                                	else 
+                                		"Egresado"
+                                	end
+                                	%>
+                                </strong><br></span></td>
+                            </tr>
+                            <tr>
+                                <td class="cell0"><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><br><strong>Carrera: </strong><br></span></td>
+                                <td class="cell0"><span style="color:#000000;font-family:Arial;font-size:13px;line-height:23px;"><br></span><span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;"><strong>Facultad:</strong></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>

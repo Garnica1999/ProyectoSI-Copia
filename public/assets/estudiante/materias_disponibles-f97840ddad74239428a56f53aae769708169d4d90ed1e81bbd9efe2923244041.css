@@ -1,0 +1,895 @@
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_LayoutGrid1 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1 {
+  box-sizing: border-box;
+  padding: 10px 15px 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1 .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1 > .row > .col-1 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 74, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+  #LayoutGrid1 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 80, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp {
+  border: 0px solid #7F7F7F;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 89, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp td {
+  padding: 4px 4px 4px 4px;
+}
+
+/* line 93, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell0 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-size: 0;
+}
+
+/* line 113, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell1 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* line 135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell2 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-size: 0;
+}
+
+/* line 155, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell3 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 177, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell4 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 199, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#TablaMateriasDisp .cell5 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* line 218, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 {
+  margin: 0;
+}
+
+/* line 222, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 {
+  position: relative;
+}
+
+/* line 226, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after {
+  box-sizing: border-box;
+}
+
+/* line 230, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 242, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 253, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 266, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 278, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 284, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 290, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox1 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 294, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 {
+  margin: 0;
+}
+
+/* line 298, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 {
+  position: relative;
+}
+
+/* line 302, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2, #wb_Checkbox2 *, #wb_Checkbox2 *::before, #wb_Checkbox2 *::after {
+  box-sizing: border-box;
+}
+
+/* line 306, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 318, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 329, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 342, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 354, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 360, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 366, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox2 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 370, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 {
+  margin: 0;
+}
+
+/* line 374, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 {
+  position: relative;
+}
+
+/* line 378, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3, #wb_Checkbox3 *, #wb_Checkbox3 *::before, #wb_Checkbox3 *::after {
+  box-sizing: border-box;
+}
+
+/* line 382, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 394, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 405, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 418, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 430, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 436, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 442, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox3 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 446, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 {
+  margin: 0;
+}
+
+/* line 450, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 {
+  position: relative;
+}
+
+/* line 454, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4, #wb_Checkbox4 *, #wb_Checkbox4 *::before, #wb_Checkbox4 *::after {
+  box-sizing: border-box;
+}
+
+/* line 458, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 470, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 481, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 494, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 506, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 512, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 518, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox4 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 522, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 {
+  margin: 0;
+}
+
+/* line 526, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 {
+  position: relative;
+}
+
+/* line 530, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5, #wb_Checkbox5 *, #wb_Checkbox5 *::before, #wb_Checkbox5 *::after {
+  box-sizing: border-box;
+}
+
+/* line 534, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 546, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 557, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 570, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 582, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 588, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 594, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox5 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 598, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 {
+  margin: 0;
+}
+
+/* line 602, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 {
+  position: relative;
+}
+
+/* line 606, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6, #wb_Checkbox6 *, #wb_Checkbox6 *::before, #wb_Checkbox6 *::after {
+  box-sizing: border-box;
+}
+
+/* line 610, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 622, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 633, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 646, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 658, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 664, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 670, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox6 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 674, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 {
+  margin: 0;
+}
+
+/* line 678, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 {
+  position: relative;
+}
+
+/* line 682, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7, #wb_Checkbox7 *, #wb_Checkbox7 *::before, #wb_Checkbox7 *::after {
+  box-sizing: border-box;
+}
+
+/* line 686, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 698, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 709, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 722, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 734, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 740, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 746, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Checkbox7 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 750, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#wb_Text1 div {
+  text-align: left;
+}
+
+/* line 754, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#Line4 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 767, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#ThemeableButton1 {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  border-width: 1px;
+  margin: 0;
+}
+
+/* line 776, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#ThemeableButton1 .ui-button {
+  position: absolute;
+  padding: 0;
+}
+
+/* line 781, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#ThemeableButton1.ui-corner-all {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 786, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#ThemeableButton1.ui-corner-all {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 791, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/materias_disponibles.scss */
+#Line1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}

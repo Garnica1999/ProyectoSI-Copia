@@ -1,0 +1,4556 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_LayoutContenidoIEst {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst > .row > .col-1 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst:before,
+#LayoutContenidoIEst:after,
+#LayoutContenidoIEst .row:before,
+#LayoutContenidoIEst .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutContenidoIEst:after,
+#LayoutContenidoIEst .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 74, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 80, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_LayoutMaterias {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 94, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias {
+  box-sizing: border-box;
+  padding: 0px 10px 0px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 101, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias .row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+/* line 106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+/* line 115, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias > .row > .col-1 {
+  float: left;
+}
+
+/* line 119, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 127, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias:before,
+#LayoutMaterias:after,
+#LayoutMaterias .row:before,
+#LayoutMaterias .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutMaterias:after,
+#LayoutMaterias .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 142, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 148, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_LayoutFormMaterias {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 162, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias {
+  box-sizing: border-box;
+  padding: 0px 20px 0px 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 169, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias .row {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+/* line 174, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+/* line 183, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+  float: left;
+}
+
+/* line 187, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 41.66666667%;
+  text-align: center;
+}
+
+/* line 195, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias > .row > .col-2 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 16.66666667%;
+  text-align: left;
+}
+
+/* line 203, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias > .row > .col-3 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 41.66666667%;
+  text-align: center;
+}
+
+/* line 211, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias:before,
+#LayoutFormMaterias:after,
+#LayoutFormMaterias .row:before,
+#LayoutFormMaterias .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 219, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutFormMaterias:after,
+#LayoutFormMaterias .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 226, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 232, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_LayoutGrid1 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1 {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 253, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1 .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 258, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 267, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  float: left;
+}
+
+/* line 271, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 279, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 287, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 294, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid1 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 300, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Table1 {
+  border: 0px solid #C0C0C0;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 309, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Table1 td {
+  padding: 0;
+}
+
+/* line 313, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Table1 td div {
+  white-space: nowrap;
+}
+
+/* line 317, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Table1 .cell0 {
+  background-color: transparent;
+  background-image: none;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* line 324, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_LayoutGrid3 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 338, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3 {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 345, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3 .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 350, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 359, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3 > .row > .col-1 {
+  float: left;
+}
+
+/* line 363, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 371, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 379, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 386, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 392, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep1Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 405, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias {
+  border: 0px solid #7F7F7F;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 414, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias td {
+  padding: 4px 4px 4px 4px;
+}
+
+/* line 418, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell0 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-size: 0;
+}
+
+/* line 438, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell1 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* line 460, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell2 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-size: 0;
+}
+
+/* line 480, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell3 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 502, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell4 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 524, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias .cell5 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* line 543, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_TextoInfoMateria div {
+  text-align: left;
+}
+
+/* line 547, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Line4 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 560, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 {
+  margin: 0;
+}
+
+/* line 564, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 {
+  position: relative;
+}
+
+/* line 568, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after {
+  box-sizing: border-box;
+}
+
+/* line 572, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 584, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 595, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 608, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 620, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 626, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 632, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 636, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 {
+  margin: 0;
+}
+
+/* line 640, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 {
+  position: relative;
+}
+
+/* line 644, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2, #wb_Checkbox2 *, #wb_Checkbox2 *::before, #wb_Checkbox2 *::after {
+  box-sizing: border-box;
+}
+
+/* line 648, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 660, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 671, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 684, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 696, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 702, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 708, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 712, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 {
+  margin: 0;
+}
+
+/* line 716, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 {
+  position: relative;
+}
+
+/* line 720, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3, #wb_Checkbox3 *, #wb_Checkbox3 *::before, #wb_Checkbox3 *::after {
+  box-sizing: border-box;
+}
+
+/* line 724, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 736, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 747, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 760, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 772, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 778, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 784, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 788, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 {
+  margin: 0;
+}
+
+/* line 792, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 {
+  position: relative;
+}
+
+/* line 796, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4, #wb_Checkbox4 *, #wb_Checkbox4 *::before, #wb_Checkbox4 *::after {
+  box-sizing: border-box;
+}
+
+/* line 800, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 812, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 823, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 848, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 854, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 860, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 864, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 {
+  margin: 0;
+}
+
+/* line 868, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 {
+  position: relative;
+}
+
+/* line 872, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5, #wb_Checkbox5 *, #wb_Checkbox5 *::before, #wb_Checkbox5 *::after {
+  box-sizing: border-box;
+}
+
+/* line 876, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 888, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 899, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 912, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 924, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 930, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 936, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 940, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 {
+  margin: 0;
+}
+
+/* line 944, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 {
+  position: relative;
+}
+
+/* line 948, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6, #wb_Checkbox6 *, #wb_Checkbox6 *::before, #wb_Checkbox6 *::after {
+  box-sizing: border-box;
+}
+
+/* line 952, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 964, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 975, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 988, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 1000, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 1006, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 1012, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 1016, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 {
+  margin: 0;
+}
+
+/* line 1020, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 {
+  position: relative;
+}
+
+/* line 1024, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7, #wb_Checkbox7 *, #wb_Checkbox7 *::before, #wb_Checkbox7 *::after {
+  box-sizing: border-box;
+}
+
+/* line 1028, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 input[type='checkbox'] {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+}
+
+/* line 1040, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 label {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* line 1051, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+/* line 1064, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 label::after {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  top: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 20px;
+}
+
+/* line 1076, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 input[type='checkbox']:checked + label::after {
+  content: " ";
+  background: url("data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat center center;
+  background-size: 80% 80%;
+}
+
+/* line 1082, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 input[type='checkbox']:checked + label::before {
+  background-color: #3370B7;
+  background-image: none;
+  border-color: #3370B7;
+}
+
+/* line 1088, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 input[type='checkbox']:focus + label::before {
+  outline: thin dotted;
+}
+
+/* line 1092, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonAñadirMaterias {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+}
+
+/* line 1099, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias {
+  margin: 0;
+}
+
+/* line 1103, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-button {
+  margin: 0;
+  padding: 0;
+  line-height: 58px;
+}
+
+/* line 1109, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonAñadirMaterias {
+  color: #454545;
+  text-decoration: none;
+}
+
+/* line 1114, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonAñadirMaterias :hover {
+  color: #2B2B2B;
+}
+
+/* line 1118, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonAñadirMaterias :active {
+  color: #FFFFFF;
+}
+
+/* line 1122, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-corner-all, #wb_ButtonAñadirMaterias .ui-corner-left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 1127, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-corner-all, #wb_ButtonAñadirMaterias .ui-corner-right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 1132, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-button {
+  background-color: #0076C0;
+  background-image: none;
+  border: 1px solid #C5C5C5;
+  color: #FFFFFF;
+}
+
+/* line 1139, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-state-hover, #wb_ButtonAñadirMaterias .ui-button:hover {
+  border-color: #CCCCCC;
+  background-color: #EDEDED;
+  background-image: none;
+  color: #2B2B2B;
+}
+
+/* line 1146, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-state-active, #wb_ButtonAñadirMaterias .ui-button:active {
+  border-color: #2E6DA4;
+  background-color: #3370B7;
+  background-image: none;
+  color: #FFFFFF;
+}
+
+/* line 1153, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-button .ui-icon {
+  background-image: url(images/inscribir-ButtonAñadirMaterias-default.png);
+  background-position: 0 0;
+}
+
+/* line 1158, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-button:hover .ui-icon {
+  background-image: url(images/inscribir-ButtonAñadirMaterias-hover.png);
+  background-position: 0 0;
+}
+
+/* line 1163, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-button:active .ui-icon {
+  background-image: url(images/inscribir-ButtonAñadirMaterias-active.png);
+  background-position: 0 0;
+}
+
+/* line 1168, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias .ui-visual-focus {
+  box-shadow: none;
+}
+
+/* line 1172, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonEliminarMateria {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  border-width: 1px;
+  margin: 0;
+}
+
+/* line 1181, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonEliminarMateria .ui-button {
+  position: absolute;
+  padding: 0;
+}
+
+/* line 1186, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonEliminarMateria.ui-corner-all {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 1191, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonEliminarMateria.ui-corner-all {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 1196, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep2Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1209, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep3Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1222, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ComboboxPago:focus {
+  border-color: #66AFE9;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
+  outline: 0;
+}
+
+/* line 1228, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep5Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1241, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#BotonPagar {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 17px;
+  font-style: normal;
+  border-width: 1px;
+  margin: 0;
+}
+
+/* line 1250, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#BotonPagar .ui-button {
+  position: absolute;
+  padding: 0;
+}
+
+/* line 1255, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#BotonPagar.ui-corner-all {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 1260, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#BotonPagar.ui-corner-all {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 1265, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Line6 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 65px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1278, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep6Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1291, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep4Iest {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1304, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Line6 {
+  display: inline-block;
+  width: 207px;
+  z-index: 23;
+}
+
+/* line 1310, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox5 {
+  display: inline-block;
+}
+
+/* line 1314, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep2Iest {
+  display: block;
+  width: 100%;
+  z-index: 6;
+}
+
+/* line 1320, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox6 {
+  display: inline-block;
+}
+
+/* line 1324, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep3Iest {
+  display: block;
+  width: 100%;
+  z-index: 8;
+}
+
+/* line 1330, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep4Iest {
+  display: block;
+  width: 100%;
+  z-index: 19;
+}
+
+/* line 1336, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox7 {
+  display: inline-block;
+}
+
+/* line 1340, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_ButtonAñadirMaterias {
+  display: inline-block;
+  width: 183px;
+  height: 60px;
+  z-index: 5;
+}
+
+/* line 1347, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep5Iest {
+  display: block;
+  width: 100%;
+  z-index: 21;
+}
+
+/* line 1353, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep6Iest {
+  display: block;
+  width: 100%;
+  z-index: 25;
+}
+
+/* line 1359, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonEliminarMateria {
+  display: inline-block;
+  width: 183px;
+  height: 60px;
+  z-index: 7;
+}
+
+/* line 1366, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Table1 {
+  display: table;
+  width: 100%;
+  height: 186px;
+  z-index: 0;
+}
+
+/* line 1373, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#BotonPagar {
+  display: inline-block;
+  width: 261px;
+  height: 65px;
+  z-index: 24;
+}
+
+/* line 1380, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 9;
+}
+
+/* line 1387, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 10;
+}
+
+/* line 1394, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox3 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 11;
+}
+
+/* line 1401, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox4 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 12;
+}
+
+/* line 1408, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_PageEstudiantes {
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+}
+
+/* line 1414, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ComboboxPago {
+  display: inline-block;
+  width: 502px;
+  height: 65px;
+  z-index: 22;
+}
+
+/* line 1421, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox5 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 13;
+}
+
+/* line 1428, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox6 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 14;
+}
+
+/* line 1435, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#wb_Checkbox7 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  z-index: 15;
+}
+
+/* line 1442, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox1 {
+  display: inline-block;
+}
+
+/* line 1446, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox2 {
+  display: inline-block;
+}
+
+/* line 1450, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#TablaMaterias {
+  display: table;
+  width: 100%;
+  height: 208px;
+  z-index: 18;
+}
+
+/* line 1457, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox3 {
+  display: inline-block;
+}
+
+/* line 1461, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#ButtonAñadirMaterias {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1466, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Line4 {
+  display: block;
+  width: 100%;
+  z-index: 16;
+}
+
+/* line 1472, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#Checkbox4 {
+  display: inline-block;
+}
+
+/* line 1476, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+#LineSep1Iest {
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 1484, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1489, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1501, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1506, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1510, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1515, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1520, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1528, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1540, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1545, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 1549, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 1554, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 1559, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1567, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1579, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1584, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias {
+    padding: 0px 20px 0px 20px;
+  }
+
+  /* line 1588, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  /* line 1593, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 1598, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1606, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-2 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1614, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-3 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1622, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_PageEstudiantes {
+    width: 1014px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1629, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1641, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1646, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1650, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1655, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1660, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1668, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1676, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1681, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #C0C0C0;
+  }
+
+  /* line 1694, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 1702, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 1710, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 1718, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1726, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell4 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1734, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell5 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1742, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_TextoInfoMateria {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 1747, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1755, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1760, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1766, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1772, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1776, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1782, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1790, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1795, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1801, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1807, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1811, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1817, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1825, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1830, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1842, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1846, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1852, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1860, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1865, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1871, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1877, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1881, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1887, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1895, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1900, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1906, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1912, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1916, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1922, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1930, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1935, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1941, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1947, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1951, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1957, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1965, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 1970, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 1976, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 1982, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 1986, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 1992, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_ButtonAñadirMaterias {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2000, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ButtonEliminarMateria {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2008, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2016, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2021, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2029, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2034, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ComboboxPago {
+    width: 502px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+  }
+
+  /* line 2043, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2051, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2056, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #BotonPagar {
+    width: 261px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2064, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    width: 207px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2072, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 65px;
+  }
+
+  /* line 2077, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2085, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2090, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2098, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  /* line 2106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 2111, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2123, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2128, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 2132, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 2137, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 2142, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 2150, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2162, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2167, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 2171, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 2176, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 2181, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2189, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2201, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2206, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias {
+    padding: 0px 20px 0px 20px;
+  }
+
+  /* line 2210, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  /* line 2215, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 2220, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2228, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-2 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2236, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-3 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2244, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_PageEstudiantes {
+    width: 790px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 2251, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2263, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2268, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 2272, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 2277, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 2282, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 2290, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2298, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2303, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2315, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 2323, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 2331, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 2339, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2347, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell4 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2355, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell5 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2363, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_TextoInfoMateria {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 2368, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2376, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2381, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2387, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2393, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2397, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2403, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2411, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2416, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2422, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2428, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2432, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2438, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2446, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2451, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2457, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2463, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2467, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2473, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2481, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2486, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2492, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2498, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2502, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2508, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2516, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2521, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2527, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2533, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2537, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2543, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2551, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2556, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2562, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2568, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2572, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2578, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2586, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 2591, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 2597, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 2603, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 2607, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 2613, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_ButtonAñadirMaterias {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2621, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ButtonEliminarMateria {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2629, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2637, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2642, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2650, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2655, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ComboboxPago {
+    width: 502px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+  }
+
+  /* line 2664, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2672, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2677, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #BotonPagar {
+    width: 261px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2685, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    width: 207px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 2693, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 65px;
+  }
+
+  /* line 2698, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2706, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2711, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2719, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* line 2727, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 2732, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2744, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2749, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 2753, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 2758, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 2763, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 2771, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2783, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2788, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 2792, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 2797, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 2802, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2810, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2822, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2827, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias {
+    padding: 0px 20px 0px 20px;
+  }
+
+  /* line 2831, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  /* line 2836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 2841, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2849, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-2 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2857, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-3 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 2865, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_PageEstudiantes {
+    width: 758px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 2872, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2884, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 2889, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 2893, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 2898, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 2903, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 2911, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2919, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 2924, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 2936, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 2944, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 2952, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 2960, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2968, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell4 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2976, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell5 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 2984, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_TextoInfoMateria {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 2989, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 2997, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 3002, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3010, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3015, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3021, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3027, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3031, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3037, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3045, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3050, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3056, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3062, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3066, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3072, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3080, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3085, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3091, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3097, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3101, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3107, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3115, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3120, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3126, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3132, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3136, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3142, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3150, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3155, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3161, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3167, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3171, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3177, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3185, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3190, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3196, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3202, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3206, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3212, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3220, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3225, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3231, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3237, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3241, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3247, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_ButtonAñadirMaterias {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3255, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ButtonEliminarMateria {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3263, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3271, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3276, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3284, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3289, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ComboboxPago {
+    width: 502px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+  }
+
+  /* line 3298, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3306, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3311, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #BotonPagar {
+    width: 261px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3319, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    width: 207px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3327, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 65px;
+  }
+
+  /* line 3332, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3340, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3345, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3353, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 3361, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 3366, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 3378, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutContenidoIEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 3383, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 3387, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 3392, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 3397, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutContenidoIEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 3405, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 3417, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 3422, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 3426, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 3431, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 3436, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutMaterias > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 3444, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 3456, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutFormMaterias {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 3461, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias {
+    padding: 0px 20px 0px 20px;
+  }
+
+  /* line 3465, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+  /* line 3470, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /* line 3475, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 3483, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-2 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 3491, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutFormMaterias > .row > .col-3 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 3499, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_PageEstudiantes {
+    width: 310px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 3506, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 3518, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 3523, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 3527, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 3532, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 3537, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 3545, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3553, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep1Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3558, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 3570, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 3578, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 3586, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 16px;
+  }
+
+  /* line 3594, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 3602, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell4 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 3610, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #TablaMaterias .cell5 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 3618, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_TextoInfoMateria {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 3623, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3631, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 3636, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3644, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3649, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3655, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3661, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3665, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox1 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3671, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3679, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3684, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3690, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3696, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3700, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox2 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3706, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3714, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3719, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3725, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3731, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3735, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox3 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3741, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3749, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3754, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3760, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3766, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3770, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox4 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3776, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3784, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3789, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3795, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3801, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3805, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox5 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3811, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3819, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3824, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3830, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3840, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox6 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3846, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 {
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3854, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* line 3859, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::before {
+    width: 20px;
+    height: 20px;
+    border-color: #CCCCCC;
+  }
+
+  /* line 3865, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 label::after {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  /* line 3871, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::after {
+    color: #FFFFFF;
+  }
+
+  /* line 3875, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_Checkbox7 input[type='checkbox']:checked + label::before {
+    background-color: #3370B7;
+    background-image: none;
+    border-color: #3370B7;
+  }
+
+  /* line 3881, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #wb_ButtonAñadirMaterias {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3889, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ButtonEliminarMateria {
+    width: 183px;
+    height: 60px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3897, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3905, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep2Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3910, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3918, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep3Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3923, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #ComboboxPago {
+    width: 502px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+  }
+
+  /* line 3932, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3940, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep5Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3945, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #BotonPagar {
+    width: 261px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3953, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    width: 207px;
+    height: 65px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 3961, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 65px;
+  }
+
+  /* line 3966, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3974, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep6Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 3979, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 3987, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-horario.scss */
+  #LineSep4Iest {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}

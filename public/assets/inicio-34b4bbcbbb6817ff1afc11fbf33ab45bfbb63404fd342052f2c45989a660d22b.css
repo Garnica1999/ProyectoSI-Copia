@@ -1,0 +1,500 @@
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/MaterialIcons-Regular-8c998b4a9c0acbb9fe5dd572c206a5a33fdd5ca2b58db87fc3b893beac85068d.eot"), url("/assets/MaterialIcons-Regular-a87d66c91b2e7dc5530aef76c03bd6a3d25ea5826110bf4803b561b811cc8726.woff2") format("woff2"), url("/assets/MaterialIcons-Regular-c4a1baec300d09e03a8380b85918267ee80faae8e00c6c56b48e2e74b1d9b38d.woff") format("woff"), url("/assets/MaterialIcons-Regular-b7f4a3ab562048f28dd1fa691601bc43363a61d0f876d16d8316c52e4f32d696.ttf") format("truetype");
+}
+/* line 15, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a:visited {
+  color: #800080;
+}
+
+/* line 42, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a:active {
+  color: #FF0000;
+}
+
+/* line 46, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+/* line 55, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.visibility-hidden {
+  visibility: hidden;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a.FooterMenu {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 65, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a.FooterMenu:visited {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 71, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a.FooterMenu:active {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 77, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+a.FooterMenu:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+/* line 82, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h1, .h1 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 94, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h2, .h2 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h3, .h3 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 118, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h4, .h4 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 21px;
+  font-style: italic;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 131, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h5, .h5 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 143, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+h6, .h6 {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  display: inline;
+}
+
+/* line 155, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.CustomStyle {
+  font-family: "Courier New";
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #2E74B5;
+  background-color: transparent;
+}
+
+/* line 164, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.boton {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #0076C0;
+  border: 1px none #0076C0;
+  border-radius: 4px;
+}
+
+/* line 176, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.EditBox {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 13px;
+  text-decoration: none;
+  color: #1D1D1D;
+  background-color: transparent;
+  border: 1px solid #A9A9A9;
+  border-radius: 4px;
+  padding: 0px 0px 0px 4px;
+}
+
+/* line 188, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.GridLayoutFooterCopy {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 13px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #233140;
+}
+
+/* line 197, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.GridLayoutFooter {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #2C3E50;
+}
+
+/* line 206, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.LayerPrincipal {
+  text-decoration: none;
+  background-color: #EEAD17;
+}
+
+/* line 211, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.LayerSecundario {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #0076C0;
+  background: linear-gradient(to top, #0076C0 0%, #0076C0 100%);
+}
+
+/* line 220, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoInfoFooter {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+/* line 230, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoTituloFooter {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 20px 0px 20px 0px;
+}
+
+/* line 241, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.h_iframe {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 251, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.iframe {
+  font-family: Arial;
+  font-size: 13px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+/* line 259, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.PanelPrincipal {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+/* line 268, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoHeader {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  color: #EEAD17;
+  background-color: transparent;
+}
+
+/* line 277, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TablaBody {
+  font-family: "Segoe UI";
+  font-size: 16px;
+  text-decoration: none;
+  color: #4F4F4F;
+  background-color: transparent;
+  border: 0px none #FFFFFF;
+}
+
+/* line 286, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TituloNoticia {
+  font-family: "Segoe UI";
+  font-size: 43px;
+  text-decoration: none;
+  color: #4F4F4F;
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.67);
+}
+
+/* line 295, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.BarraTitulo {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 7px;
+}
+
+/* line 306, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoNoticia {
+  font-family: "Segoe UI";
+  font-size: 13px;
+  text-decoration: none;
+  color: #5A5A5A;
+  background-color: transparent;
+}
+
+/* line 314, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoDivisor {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+/* line 324, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TituloDivisorNegro {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #3C3C3C;
+  background-color: transparent;
+}
+
+/* line 334, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.capbox {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  background-color: #92D433;
+  border: #B3E272 0px solid;
+  border-width: 0px 12px 0px 0px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  /* FOR IE7-8 */
+  padding: 8px 40px 8px 8px;
+}
+
+/* line 351, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.capbox-inner {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  font: bold 11px arial, sans-serif;
+  color: #000000;
+  background-color: #DBF3BA;
+  margin: 5px auto 0px auto;
+  padding: 3px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 368, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.CapchaDiv {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  font: bold 17px verdana, arial, sans-serif;
+  font-style: italic;
+  color: #000000;
+  background-color: #FFFFFF;
+  padding: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 385, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.CapchaInput {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  margin: 1px 0px 1px 0px;
+  width: 135px;
+}
+
+/* line 396, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoNoticia {
+  font-family: "Segoe UI";
+  font-size: 15px;
+  text-align: justify;
+  text-decoration: none;
+  color: #DCDCDC;
+  background-color: transparent;
+}
+
+/* line 405, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoActividad {
+  font-family: "Segoe UI";
+  font-size: 17px;
+  text-align: justify;
+  text-decoration: none;
+  color: #DCDCDC;
+  background-color: transparent;
+}
+
+/* line 414, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.SubTitulo {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 27px;
+  text-decoration: none;
+  color: #DCDCDC;
+  background-color: transparent;
+}
+
+/* line 423, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.TextoInfoMateria {
+  font-family: "Segoe UI";
+  font-size: 19px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+}
+
+/* line 432, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.Tabla {
+  font-family: "Segoe UI";
+  font-size: 19px;
+  text-align: left;
+  text-decoration: none;
+  color: #464646;
+  background-color: transparent;
+}
+
+/* line 441, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.ComboBox {
+  font-family: "Segoe UI";
+  font-size: 19px;
+  text-align: left;
+  text-decoration: none;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #A9A9A9;
+  border-radius: 5px;
+  padding: 0px 0px 0px 4px;
+}
+
+/* line 453, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/inicio.scss */
+.CheckBox {
+  font-family: "Segoe UI";
+  font-size: 13px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #0076C0;
+  border: 1px solid #DCDCDC;
+  border-radius: 4px;
+}

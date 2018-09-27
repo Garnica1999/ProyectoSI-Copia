@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  documento: 1
+  nombres: MyString
+  apellidos: MyString
+  es_egresado: 1
+  clave: MyString
+  promedio_carrera: 9.99
+
+two:
+  documento: 1
+  nombres: MyString
+  apellidos: MyString
+  es_egresado: 1
+  clave: MyString
+  promedio_carrera: 9.99

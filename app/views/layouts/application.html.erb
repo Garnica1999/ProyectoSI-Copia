@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proyecto</title>
+    <%= csrf_meta_tags %>
+
+    <!--
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    -->
+    <%= stylesheet_link_tag 'inicio', :media => "all" %>
+    <%= stylesheet_link_tag 'index', :media => "all" %>
+    <%= stylesheet_link_tag 'font-awesome.min', :media => "all" %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script>
+		$(document).ready(function()
+		{
+		   var Carousel1Opts =
+		   {
+		      delay: 5000,
+		      duration: 600,
+		      easing: 'linear',
+		      mode: 'forward',
+		      direction: '',
+		      scalemode: 3,
+		      pagination: true,
+		      pagination_img_default: '<%= asset_path('page_default.png') %>',
+		      pagination_img_active: '<%= asset_path('page_active.png') %>',
+		      start: 0
+		   };
+		   $("#Carousel1").carousel(Carousel1Opts);
+		   $("#Carousel1_back a").click(function()
+		   {
+		      $('#Carousel1').carousel('prev');
+		   });
+		   $("#Carousel1_next a").click(function()
+		   {
+		      $('#Carousel1').carousel('next');
+		   });
+		   $("a[href*='#BookmarkServicios']").click(function(event)
+		   {
+		      event.preventDefault();
+		      $('html, body').stop().animate({ scrollTop: $('#wb_BookmarkServicios').offset().top }, 600, 'linear');
+		   });
+		   $("a[href*='#BookmarkNoticia']").click(function(event)
+		   {
+		      event.preventDefault();
+		      $('html, body').stop().animate({ scrollTop: $('#wb_BookmarkNoticia').offset().top }, 600, 'linear');
+		   });
+		   $("a[href*='#BookmarkBeneficios']").click(function(event)
+		   {
+		      event.preventDefault();
+		      $('html, body').stop().animate({ scrollTop: $('#wb_BookmarkBeneficios').offset().top }, 600, 'linear');
+		   });
+		   $("a[href*='#BookmarkActividades']").click(function(event)
+		   {
+		      event.preventDefault();
+		      $('html, body').stop().animate({ scrollTop: $('#wb_BookmarkActividades').offset().top }, 600, 'linear');
+		   });
+		   $("a[href*='#BookmarkNuetrasSedes']").click(function(event)
+		   {
+		      event.preventDefault();
+		      $('html, body').stop().animate({ scrollTop: $('#wb_BookmarkNuetrasSedes').offset().top }, 600, 'linear');
+		   });
+		});
+		</script>
+  </head>
+
+  <body class= "body-content">
+
+  	<div id="wb_LayoutGrid10">
+	    <div id="LayoutGrid10">
+	        <div class="row">
+	            <div class="col-1">
+	                <div id="wb_CssMenu2">
+	                    <ul role="menubar">
+	                        <li class="firstmain"><a role="menuitem" href="#BookmarkServicios" target="_self" title="Servicios">Servicios</a>
+	                        </li>
+	                        <li><a role="menuitem" href="#BookmarkNoticia" target="_self" title="Noticias">Noticias</a>
+	                        </li>
+	                        <li><a role="menuitem" href="#BookmarkActividades" target="_self" title="Actividades">Actividades</a>
+	                        </li>
+	                        <li><a role="menuitem" href="#BookmarkBeneficios" target="_self">Beneficios</a>
+	                        </li>
+	                        <li><a role="menuitem" href="#BookmarkNuetrasSedes" target="_self" title="Nuestras Sedes">Nuestras&nbsp;Sedes</a>
+	                        </li>
+	                        <li><a role="menuitem" href="#BookmarkFooter" target="_self" title="Quienes Somos?">Quienes&nbsp;Somos?</a>
+	                        </li>
+	                    </ul>
+
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div id="Layer1">
+	    <div id="Layer1_Container">
+	        <div id="wb_Logo">
+	        	<%= link_to root_path do%>
+	            	<%= image_tag("logo-ucatolica.svg", :alt => "", :id =>"Logo", :alt => "", :class => "imagen")%></div>
+	            <%end%>
+	        <div id="wb_CssMenu1">
+	            <ul role="menubar">
+	                <li class="firstmain"><a role="menuitem" href="#" target="_self" title="Aspirantes">Aspirantes</a>
+	                </li>
+	                <li><a role="menuitem" href="#" target="_self" title="Estudiantes">Estudiantes</a>
+	                </li>
+	                <li><a role="menuitem" href="#" target="_self" title="Docentes">Docentes</a>
+	                </li>
+	                <li><a role="menuitem" href="#" target="_self" title="Egresados">Egresados</a>
+	                </li>
+	                <li><a role="menuitem" href="#" target="_self" title="Directivos">Directivos</a>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</div>
+
+	<div id="LayerSecundario">
+	    <div id="LayerSecundario_Container">
+	        <div id="wb_iconNotificaciones">
+	            <svg id="iconNotificaciones" class="imagen" height="100%" width="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	            <g transform="scale(0.0179)">
+	            <path transform="rotate(180) scale(-1,1) translate(0,-1536)" d="M912 -160q0 16 -16 16q-59 0 -101.5 42.5t-42.5 101.5q0 16 -16 16t-16 -16q0 -73 51.5 -124.5t124.5 -51.5q16 0 16 16zM1728 128q0 -52 -38 -90t-90 -38h-448q0 -106 -75 -181t-181 -75t-181 75t-75 181h-448q-52 0 -90 38t-38 90q50 42 91 88t85 119.5t74.5 158.5t50 206t19.5 260q0 152 117 282.5t307 158.5q-8 19 -8 39q0 40 28 68t68 28t68 -28t28 -68q0 -20 -8 -39q190 -28 307 -158.5t117 -282.5q0 -139 19.5 -260t50 -206t74.5 -158.5t85 -119.5t91 -88z"/>
+	            </g>
+	            </svg>
+	        </div>
+	        <div id="wb_TextBienvenida" class="TextoHeader">
+	            <span style="color:#EEAD17;font-family:'Segoe UI';font-size:27px;"><strong>Bienvenido Usuario!</strong></span></div>
+	    </div>
+	</div>
+
+    <%= yield %>
+
+    <div id="wb_LayoutGrid5">
+	    <div id="LayoutGrid5">
+	        <div class="row">
+	            <div class="col-1">
+	                <hr id="Line21">
+	                <div id="wb_TextoFooterInfo" class="TextoTituloFooter">
+	                    <span style="color:#FFFFFF;font-family:Arial;font-size:20px;"><strong>Nuestras Sedes</strong></span>
+	                </div>
+	                <div id="wb_textoInfoFooter" class="TextoInfoFooter">
+	                    <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:15px;">PBX: (57 1) 3 27 73 00 - (57 1) 3 27 73 33<br>Bogotá, Avenida Caracas # 46 -72, sede Las Torres&nbsp;&nbsp; •&nbsp;&nbsp; Bogotá, Carrera 13 # 47 - 30, Sede 4​&nbsp;&nbsp; •&nbsp;&nbsp; Bogotá, Diagonal 46 A # 15 B - 10, sede El Claustro <br>Bogotá, Carrera 13 # 47 - 49, sede Carrera 13&nbsp; </span>
+	                </div>
+	            </div>
+	            <div class="col-2">
+	                <hr id="Line15">
+	                <div id="wb_LayoutGrid6">
+	                    <div id="LayoutGrid6">
+	                        <div class="row">
+	                            <div class="col-1">
+	                                <div id="Html1">
+	                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7735161186097!2d-74.06878968477375!3d4.634450543517743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a2f9f28a575%3A0xa62eed86d7ca9551!2sUniversidad+Cat%C3%B3lica!5e0!3m2!1ses!2sco!4v1535947008048" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div id="wb_LayoutGridFooter">
+	    <div id="LayoutGridFooter">
+	        <div class="row">
+	            <div class="col-1">
+	                <div id="wb_Text12" class="TextoTituloFooter">
+	                    <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:20px;"><strong>De interes</strong></span>
+	                </div>
+	                <div id="wb_TextMenu1">
+	                    <span>&#8226; <a href="http://" class="FooterMenu">Item 1</a></span>
+	                    <span>&#8226; <a href="" class="FooterMenu">Item 2</a></span>
+	                    <span>&#8226; <a href="" class="FooterMenu">Item 3</a></span>
+	                    <span>&#8226; <a href="" class="FooterMenu">Item 4</a></span>
+
+	                </div>
+	            </div>
+	            <div class="col-2">
+	                <div id="wb_TextoRedesFooter" class="TextoTituloFooter">
+	                    <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:20px;"><strong>Redes Sociales</strong></span>
+	                </div>
+	                <div id="wb_iconoFacebook">
+	                    <a href="https://www.facebook.com/ucatolicacolombia"><div id="iconoFacebook"><i class="fa fa-facebook"></i></div></a>
+	                </div>
+	                <div id="wb_IconoTwitter">
+	                    <a href="https://twitter.com/UCatolicaCol"><div id="IconoTwitter"><i class="fa fa-twitter"></i></div></a>
+	                </div>
+	                <div id="wb_iconoInstagram">
+	                    <a href="https://www.youtube.com/user/UCatolicaCo"><div id="iconoInstagram"><i class="fa fa-instagram"></i></div></a>
+	                </div>
+	                <div id="wb_iconoYoutube">
+	                    <a href="https://www.youtube.com/user/UCatolicaCo"><div id="iconoYoutube"><i class="fa fa-youtube"></i></div></a>
+	                </div>
+	            </div>
+	            <div class="col-3">
+	                <div id="wb_TextAcercaDeFooter" class="TextoTituloFooter">
+	                    <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:20px;"><strong>Universidad Católica de Colombia</strong></span>
+	                </div>
+	                <div id="wb_TextoAcercaDe" class="TextoInfoFooter">
+	                    <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:15px;">La Universidad Católica de Colombia es una Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación, reconocida mediante Resolución Número 2271 de julio 7 de 1970 del Ministerio de Justicia.</span>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div id="wb_LayoutGridCopyright">
+	    <div id="LayoutGridCopyright">
+	        <div class="row">
+	            <div class="col-1">
+	                <div id="wb_TextCopyright">
+	                    <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Universidad Católica de Colombia © 2018. Todos los derechos reservados </span>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<div id="wb_BookmarkServicios">
+	    <a id="BookmarkServicios">&nbsp;</a>
+	</div>
+	<div id="wb_BookmarkNoticia">
+	    <a id="BookmarkNoticia">&nbsp;</a>
+	</div>
+	<div id="wb_BookmarkBeneficios">
+	    <a id="BookmarkBeneficios">&nbsp;</a>
+	</div>
+	<div id="wb_BookmarkActividades">
+	    <a id="BookmarkActividades">&nbsp;</a>
+	</div>
+	<div id="wb_BookmarkNuetrasSedes">
+	    <a id="BookmarkNuetrasSedes">&nbsp;</a>
+	</div>
+	<div id="wb_BookmarkFooter">
+	    <a id="BookmarkFooter">&nbsp;</a>
+	</div>
+  </body>
+</html>

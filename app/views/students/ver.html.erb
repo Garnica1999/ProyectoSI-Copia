@@ -1,0 +1,38 @@
+        <div id="wb_LayoutGridEstud">
+            <div id="LayoutGridEstud">
+                <div class="row">
+                    <div class="col-1">
+                        <hr id="Line1Estud">
+                        <table id="TableEstudiantesEstud">
+
+                            <tr>
+                                <td class="cell0"><span style="color:#333333;"><strong>Carnet</strong></span></td>
+                                <td class="cell0"><span style="color:#333333;"><strong>Documento</strong></span></td>
+                                <td class="cell0"><span style="color:#333333;"><strong>Nombres</strong></span></td>
+                                <td class="cell0"><span style="color:#333333;"><strong>Apellidos</strong></span></td>
+                                <td class="cell0"><span style="color:#333333;"><strong>Egresado</strong></span></td>
+                                <td class="cell0"><span style="color:#333333;"><strong>Promedio Carrera</strong></span></td>
+                            </tr>
+                            <%= @students.each do |estudiante|  %>
+                                <tr>
+                                    <td class="cell1"><span style="color:#333333;"><%= estudiante.id.to_s %></span></td>
+                                    <td class="cell1"><span style="color:#333333;"><%= estudiante.documento.to_s %></span></td>
+                                    <td class="cell1"><span style="color:#333333;"><%= estudiante.nombres %></span></td>
+                                    <td class="cell1"><span style="color:#333333;"><%= estudiante.apellidos %></span></td>
+                                    <td class="cell1"><span style="color:#333333;">
+                                        <%= 
+                                        if estudiante.es_egresado == 0
+                                            "No"
+                                        else
+                                            "Si"
+                                        end
+                                        %></span></td>
+                                    <td class="cell1"><span style="color:#333333;"><%= estudiante.promedio_carrera.to_s %></span></td>
+                                </tr>
+                            <%end%>
+                        </table>
+                        <hr id="Line2Estud">
+                    </div>
+                </div>
+            </div>
+        </div>

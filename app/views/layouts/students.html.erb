@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es-co">
+    <head>
+        <meta charset="utf-8">
+        <title>Ver materias Disponibles - Monitorias</title>
+        <%= stylesheet_link_tag 'inicio', :media => "all" %>
+        <%= stylesheet_link_tag 'students/estudiante', :media => "all" %>
+        <%= stylesheet_link_tag 'font-awesome.min', :media => "all" %>
+        <%= stylesheet_link_tag 'students/index-estudiante', :media => "all" %>
+        <%= stylesheet_link_tag 'students/login-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'jquery-ui.min.css', :media => "all" %>
+        <%= stylesheet_link_tag 'students/inscribir-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'students/ver-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'students/materias_disponibles', :media => "all" %>
+        <%= stylesheet_link_tag 'students/login-monitoria', :media => "all" %>
+        <%= stylesheet_link_tag 'students/inscribir-monitoria', :media => "all" %>
+        <%= stylesheet_link_tag 'students/ver-monitoria', :media => "all" %>
+        <%= stylesheet_link_tag 'students/ver-estudiantes', :media => "all" %>
+        <%= stylesheet_link_tag 'students/info-estudiantes', :media => "all" %>
+        <%= stylesheet_link_tag 'students/nuevo-estudiante', :media => "all" %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <script>
+            $(document).ready(function ()
+            {
+                $("#wb_MenuPrincipal ul li a").click(function (event)
+                {
+                    $("#wb_MenuPrincipal input").prop("checked", false);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wb_HeaderEstudiante">
+            <div id="HeaderEstudiante">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_LogoEst">
+                            <%= link_to root_path do%>
+                                    <%= image_tag("logo-ucatolica.svg", :alt => "", :id =>"LogoEst", :class => "imagen")%>
+                            <%end%>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="wb_MenuPrincipal">
+                            <label class="toggle" for="MenuPrincipal-submenu" id="MenuPrincipal-title">Menu<span id="MenuPrincipal-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+                            <input type="checkbox" id="MenuPrincipal-submenu">
+                            <ul class="MenuPrincipal" id="MenuPrincipal" class="menu" role="menu">
+                                <li><a role="menuitem" href="/students/index.html"><i class="fa fa-home fa-2x">&nbsp;</i><br>Inicio</a></li>
+                                <li>
+                                    <label for="MenuPrincipal-submenu-0" class="toggle"><i class="fa fa-child fa-2x">&nbsp;</i>Monitorias<b class="arrow-down"></b></label>
+                                    <a role="menuitem" href="#"><i class="fa fa-child fa-2x">&nbsp;</i><br>Monitorias<b class="arrow-down"></b></a>
+                                    <input type="checkbox" id="MenuPrincipal-submenu-0">
+                                    <ul role="menu">
+                                        <li><a role="menuitem" href="/students/monitoring/ver.html"><i class="fa fa-desktop fa-2x">&nbsp;</i>Ver&nbsp;Monitorias</a></li>
+                                        <li><a role="menuitem" href="/students/monitoring/inscribir.html"><i class="fa fa-edit fa-2x">&nbsp;</i>Inscribirse&nbsp;a&nbsp;monitor</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="MenuPrincipal-submenu-1" class="toggle"><i class="fa fa-address-book-o fa-2x">&nbsp;</i>Horario<b class="arrow-down"></b></label>
+                                    <a role="menuitem" href="#"><i class="fa fa-address-book-o fa-2x">&nbsp;</i><br>Horario<b class="arrow-down"></b></a>
+                                    <input type="checkbox" id="MenuPrincipal-submenu-1">
+                                    <ul role="menu">
+                                        <li><a role="menuitem" href="/students/schedules/ver.html"><i class="fa fa-eye fa-2x">&nbsp;</i>Consultar&nbsp;Horario</a></li>
+                                        <li><a role="menuitem" href="/students/schedules/inscribir.html" ><i class="fa fa-clock-o fa-2x">&nbsp;</i>Cuadrar&nbsp;Horario</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wb_LayoutMenu">
+            <div id="LayoutMenu">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_TextBienvenidaEst" class="TextoHeader">
+                            <span style="color:#EEAD17;"><strong>Bienvenido Estudiante!</strong></span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="wb_iconNotificacionesEst">
+                            <svg id="iconNotificacionesEst" class="imagen" height="100%" width="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g transform="scale(0.0179)">
+                            <path transform="rotate(180) scale(-1,1) translate(0,-1536)" d="M912 -160q0 16 -16 16q-59 0 -101.5 42.5t-42.5 101.5q0 16 -16 16t-16 -16q0 -73 51.5 -124.5t124.5 -51.5q16 0 16 16zM1728 128q0 -52 -38 -90t-90 -38h-448q0 -106 -75 -181t-181 -75t-181 75t-75 181h-448q-52 0 -90 38t-38 90q50 42 91 88t85 119.5t74.5 158.5t50 206t19.5 260q0 152 117 282.5t307 158.5q-8 19 -8 39q0 40 28 68t68 28t68 -28t28 -68q0 -20 -8 -39q190 -28 307 -158.5t117 -282.5q0 -139 19.5 -260t50 -206t74.5 -158.5t85 -119.5t91 -88z"/>
+                            </g>
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%= yield %>
+        <div id="wb_LayoutGrid5">
+            <div id="LayoutGrid5">
+                <div class="row">
+                    <div class="col-1">
+                        <hr id="Line21">
+                        <div id="wb_TextoFooterInfo" class="TextoTituloFooter">
+                            <span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>INFO</strong></span>
+                        </div>
+                        <div id="wb_textoInfoFooter" class="TextoInfoFooter">
+                            <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:15px;">PBX: (57 1) 3 27 73 00 - (57 1) 3 27 73 33<br>Bogotá, Avenida Caracas # 46 -72, sede Las Torres&nbsp;&nbsp; •&nbsp;&nbsp; Bogotá, Carrera 13 # 47 - 30, Sede 4​&nbsp;&nbsp; •&nbsp;&nbsp; Bogotá, Diagonal 46 A # 15 B - 10, sede El Claustro <br>Bogotá, Carrera 13 # 47 - 49, sede Carrera 13&nbsp; </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <hr id="Line15">
+                        <div id="wb_LayoutGrid6">
+                            <div id="LayoutGrid6">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div id="Html1">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7735161186097!2d-74.06878968477375!3d4.634450543517743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a2f9f28a575%3A0xa62eed86d7ca9551!2sUniversidad+Cat%C3%B3lica!5e0!3m2!1ses!2sco!4v1535947008048" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wb_LayoutGridFooter">
+            <div id="LayoutGridFooter">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_Text12" class="TextoTituloFooter">
+                            <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:20px;"><strong>De interes</strong></span>
+                        </div>
+                        <div id="wb_TextMenu1">
+                            <span>&#8226; <a href="http://" class="FooterMenu">Item 1</a></span>
+                            <span>&#8226; <a href="" class="FooterMenu">Item 2</a></span>
+                            <span>&#8226; <a href="" class="FooterMenu">Item 3</a></span>
+                            <span>&#8226; <a href="" class="FooterMenu">Item 4</a></span>
+
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="wb_TextoRedesFooter" class="TextoTituloFooter">
+                            <span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>Redes Sociales</strong></span>
+                        </div>
+                        <div id="wb_iconoFacebook">
+                            <a href="https://www.facebook.com/ucatolicacolombia"><div id="iconoFacebook"><i class="fa fa-facebook"></i></div></a>
+                        </div>
+                        <div id="wb_IconoTwitter">
+                            <a href="https://twitter.com/UCatolicaCol"><div id="IconoTwitter"><i class="fa fa-twitter"></i></div></a>
+                        </div>
+                        <div id="wb_iconoInstagram">
+                            <a href="https://www.youtube.com/user/UCatolicaCo"><div id="iconoInstagram"><i class="fa fa-instagram"></i></div></a>
+                        </div>
+                        <div id="wb_iconoYoutube">
+                            <a href="https://www.youtube.com/user/UCatolicaCo"><div id="iconoYoutube"><i class="fa fa-youtube"></i></div></a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div id="wb_TextAcercaDeFooter" class="TextoTituloFooter">
+                            <span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong>Universidad Católica de Colombia</strong></span>
+                        </div>
+                        <div id="wb_TextoAcercaDe" class="TextoInfoFooter">
+                            <span style="color:#FFFFFF;font-family:'Segoe UI';font-size:15px;">La Universidad Católica de Colombia es una Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación, reconocida mediante Resolución Número 2271 de julio 7 de 1970 del Ministerio de Justicia.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="wb_LayoutGridCopyright">
+            <div id="LayoutGridCopyright">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_TextCopyright">
+                            <span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Universidad Católica de Colombia © 2018. Todos los derechos reservados </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

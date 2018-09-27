@@ -1,0 +1,1987 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContenidoInsMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContenidoInsMon
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContenidoInsMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   float: left;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContenidoInsMon:before,
+#LayoutContenidoInsMon:after,
+#LayoutContenidoInsMon .row:before,
+#LayoutContenidoInsMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContenidoInsMon:after,
+#LayoutContenidoInsMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContenidoInsMon > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid7
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid7
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid7 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid7 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Table1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Line1InsMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextAdvertenciaInsMom 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextAdvertenciaInsMom div
+{
+   text-align: left;
+}
+#wb_LayoutFormInsMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutFormInsMon
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutFormInsMon .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   float: left;
+}
+#LayoutFormInsMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 8.33333333%;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 8.33333333%;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 33.33333333%;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 8.33333333%;
+   text-align: center;
+}
+#LayoutFormInsMon:before,
+#LayoutFormInsMon:after,
+#LayoutFormInsMon .row:before,
+#LayoutFormInsMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutFormInsMon:after,
+#LayoutFormInsMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#ButtonConfirmarInsMon
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+}
+#wb_ButtonConfirmarInsMon
+{
+   margin: 0;
+}
+#wb_ButtonConfirmarInsMon .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 52px;
+}
+#ButtonConfirmarInsMon
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonConfirmarInsMon :hover
+{
+   color: #2B2B2B;
+}
+#ButtonConfirmarInsMon :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonConfirmarInsMon .ui-corner-all, #wb_ButtonConfirmarInsMon .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonConfirmarInsMon .ui-corner-all, #wb_ButtonConfirmarInsMon .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonConfirmarInsMon .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #0076C0;
+   color: #FFFFFF;
+}
+#wb_ButtonConfirmarInsMon .ui-state-hover, #wb_ButtonConfirmarInsMon .ui-button:hover
+{
+   border-color: #0069A8;
+   background-color: #0069A8;
+   background-image: none;
+   color: #DCDCDC;
+}
+#wb_ButtonConfirmarInsMon .ui-state-active, #wb_ButtonConfirmarInsMon .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonConfirmarInsMon .ui-button .ui-icon
+{
+   background-image: url(images/inscribir-ButtonConfirmarInsMon-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonConfirmarInsMon .ui-button:hover .ui-icon
+{
+   background-image: url(images/inscribir-ButtonConfirmarInsMon-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonConfirmarInsMon .ui-button:active .ui-icon
+{
+   background-image: url(images/inscribir-ButtonConfirmarInsMon-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonConfirmarInsMon .ui-visual-focus
+{
+   box-shadow: none;
+}
+#ButtonRechazarInsMon
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+}
+#wb_ButtonRechazarInsMon
+{
+   margin: 0;
+}
+#wb_ButtonRechazarInsMon .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 52px;
+}
+#ButtonRechazarInsMon
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonRechazarInsMon :hover
+{
+   color: #2B2B2B;
+}
+#ButtonRechazarInsMon :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonRechazarInsMon .ui-corner-all, #wb_ButtonRechazarInsMon .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonRechazarInsMon .ui-corner-all, #wb_ButtonRechazarInsMon .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonRechazarInsMon .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #0069A8;
+   color: #FFFFFF;
+}
+#wb_ButtonRechazarInsMon .ui-state-hover, #wb_ButtonRechazarInsMon .ui-button:hover
+{
+   border-color: #0069A8;
+   background-color: #0069A8;
+   background-image: none;
+   color: #DCDCDC;
+}
+#wb_ButtonRechazarInsMon .ui-state-active, #wb_ButtonRechazarInsMon .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonRechazarInsMon .ui-button .ui-icon
+{
+   background-image: url(images/inscribir-ButtonRechazarInsMon-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonRechazarInsMon .ui-button:hover .ui-icon
+{
+   background-image: url(images/inscribir-ButtonRechazarInsMon-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonRechazarInsMon .ui-button:active .ui-icon
+{
+   background-image: url(images/inscribir-ButtonRechazarInsMon-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonRechazarInsMon .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineFinalInsMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line3InsMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line4InsMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 11px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2InsMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 11px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineFinalInsMon
+{
+   display: block;
+   width: 100%;
+   z-index: 13;
+}
+#ButtonRechazarInsMon
+{
+   width: 100%;
+   height: 100%;
+}
+#Table1
+{
+   display: table;
+   width: 100%;
+   height: 186px;
+   z-index: 0;
+}
+#wb_EmbeddedPageInsMon
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 10;
+}
+#wb_ButtonRechazarInsMon
+{
+   display: inline-block;
+   width: 171px;
+   height: 54px;
+   z-index: 8;
+}
+#wb_ButtonConfirmarInsMon
+{
+   display: inline-block;
+   width: 171px;
+   height: 54px;
+   z-index: 5;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#Line2InsMon
+{
+   display: block;
+   width: 100%;
+   z-index: 9;
+}
+#Line1InsMon
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#Line3InsMon
+{
+   display: block;
+   width: 100%;
+   z-index: 7;
+}
+#ButtonConfirmarInsMon
+{
+   width: 100%;
+   height: 100%;
+}
+#Line4InsMon
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoInsMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoInsMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 0;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPageInsMon
+{
+   width: 1014px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#Line1InsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextAdvertenciaInsMom
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAdvertenciaInsMom
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutFormInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormInsMon
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutFormInsMon .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutFormInsMon > .row > .col-1
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-2
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-3
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-4
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-5
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_ButtonConfirmarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_ButtonRechazarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#Line3InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line4InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+#Line2InsMon
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoInsMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoInsMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 0;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPageInsMon
+{
+   width: 790px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#Line1InsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextAdvertenciaInsMom
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAdvertenciaInsMom
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutFormInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormInsMon
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutFormInsMon .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutFormInsMon > .row > .col-1
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-2
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-3
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-4
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-5
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_ButtonConfirmarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_ButtonRechazarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#Line3InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line4InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+#Line2InsMon
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoInsMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoInsMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 0;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPageInsMon
+{
+   width: 758px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#Line1InsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextAdvertenciaInsMom
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAdvertenciaInsMom
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutFormInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormInsMon
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutFormInsMon .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutFormInsMon > .row > .col-1
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-2
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-3
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-4
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-5
+{
+   display: block;
+   width: 8.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_ButtonConfirmarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_ButtonRechazarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#Line3InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line4InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+#Line2InsMon
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoInsMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoInsMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoInsMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGrid7
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid7
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid7
+{
+   padding: 0;
+}
+#LayoutGrid7 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid7 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPageInsMon
+{
+   width: 310px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#Line1InsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextAdvertenciaInsMom
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAdvertenciaInsMom
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutFormInsMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormInsMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormInsMon
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutFormInsMon .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutFormInsMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutFormInsMon > .row > .col-5
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_ButtonConfirmarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_ButtonRechazarInsMon
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineFinalInsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#Line3InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line4InsMon
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+#Line2InsMon
+{
+   width: calc(100% - 0px);
+   height: 11px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2InsMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 11px;
+}
+}

@@ -1,0 +1,1694 @@
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_LayoutContenidoEH {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 16.66666667%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-2 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 66.66666667%;
+  text-align: center;
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-2 > .col-2-padding {
+  padding: 0px 5px 0px 0px;
+}
+
+/* line 71, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH > .row > .col-3 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 16.66666667%;
+  text-align: center;
+}
+
+/* line 79, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH:before,
+#LayoutContenidoEH:after,
+#LayoutContenidoEH .row:before,
+#LayoutContenidoEH .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 87, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutContenidoEH:after,
+#LayoutContenidoEH .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 94, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 100, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#separador1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 53px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 113, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_TextTituloLogin div {
+  text-align: center;
+}
+
+/* line 117, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#separador2 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 51px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 130, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_iconLogin {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 158px;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 143, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_iconLogin:hover {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+}
+
+/* line 149, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#iconLogin {
+  vertical-align: middle;
+}
+
+/* line 153, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#iconLogin g {
+  fill: #0076C0;
+  display: inline-block;
+  font-size: 158px;
+  vertical-align: middle;
+  width: 157px;
+}
+
+/* line 161, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_iconLogin:hover g {
+  fill: #337AB7;
+}
+
+/* line 165, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line4 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 21px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 178, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxCodigo:focus {
+  border-color: #66AFE9;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
+  outline: 0;
+}
+
+/* line 184, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxCodigo::placeholder {
+  color: #C1C1C1;
+  opacity: 1;
+}
+
+/* line 189, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxCodigo::-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+/* line 193, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 21px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 206, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxPassword:focus {
+  border-color: #66AFE9;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 8px rgba(102, 175, 233, 0.6);
+  outline: 0;
+}
+
+/* line 212, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxPassword::placeholder {
+  color: #C1C1C1;
+  opacity: 1;
+}
+
+/* line 217, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxPassword::-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+/* line 221, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line2 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 21px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 234, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#ButtonEntrarMonitoria {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  border-width: 1px;
+}
+
+/* line 242, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_ButtonEntrarMonitoria {
+  margin: 0;
+}
+
+/* line 246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_ButtonEntrarMonitoria .ui-button {
+  margin: 0;
+  padding: 0;
+  line-height: 52px;
+}
+
+/* line 252, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#ButtonEntrarMonitoria {
+  color: #454545;
+  text-decoration: none;
+}
+
+/* line 257, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#ButtonEntrarMonitoria :hover {
+  color: #2B2B2B;
+}
+
+/* line 261, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#ButtonEntrarMonitoria :active {
+  color: #FFFFFF;
+}
+
+/* line 265, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_ButtonEntrarMonitoria .ui-corner-all, #wb_ButtonEntrarMonitoria .ui-corner-left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 270, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_ButtonEntrarMonitoria .ui-corner-all, #wb_ButtonEntrarMonitoria .ui-corner-right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 275, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line3 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 288, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_LayoutGridLoginEH {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 302, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 309, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 314, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 323, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH > .row > .col-1 {
+  float: left;
+}
+
+/* line 327, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 335, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH:before,
+#LayoutGridLoginEH:after,
+#LayoutGridLoginEH .row:before,
+#LayoutGridLoginEH .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 343, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#LayoutGridLoginEH:after,
+#LayoutGridLoginEH .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 350, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 356, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line6 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 15px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 369, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line6 {
+  display: block;
+  width: 100%;
+  z-index: 12;
+}
+
+/* line 375, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxPassword {
+  display: block;
+  width: 100%;
+  height: 50px;
+  z-index: 7;
+}
+
+/* line 382, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#separador1 {
+  display: block;
+  width: 100%;
+  z-index: 0;
+}
+
+/* line 388, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#separador2 {
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 394, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_iconLogin {
+  display: inline-block;
+  width: 190px;
+  height: 158px;
+  text-align: center;
+  z-index: 3;
+}
+
+/* line 402, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#wb_ButtonEntrarMonitoria {
+  display: inline-block;
+  width: 301px;
+  height: 54px;
+  z-index: 11;
+}
+
+/* line 409, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#EditboxCodigo {
+  display: block;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+}
+
+/* line 416, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Html2 {
+  display: inline-block;
+  width: 301px;
+  height: 74px;
+  z-index: 9;
+}
+
+/* line 423, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#iconLogin {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 431, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#ButtonEntrarMonitoria {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 436, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line1 {
+  display: block;
+  width: 100%;
+  z-index: 6;
+}
+
+/* line 442, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line2 {
+  display: block;
+  width: 100%;
+  z-index: 8;
+}
+
+/* line 448, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line3 {
+  display: block;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 454, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+#Line4 {
+  display: block;
+  width: 100%;
+  z-index: 4;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 462, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 467, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    visibility: visible;
+    display: table;
+  }
+
+  /* line 472, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 477, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 481, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 486, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 491, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 499, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 {
+    display: block;
+    width: 66.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 507, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 > .col-2-padding {
+    padding: 0px 5px 0px 0px;
+  }
+
+  /* line 511, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-3 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 519, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    width: calc(100% - 0px);
+    height: 53px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 527, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 53px;
+  }
+
+  /* line 532, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_TextTituloLogin {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 537, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    width: calc(100% - 0px);
+    height: 51px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 545, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 51px;
+  }
+
+  /* line 550, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_iconLogin {
+    width: 190px;
+    height: 158px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 567, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin {
+    width: 190px;
+    height: 158px;
+  }
+
+  /* line 572, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin g {
+    line-height: 158px;
+    font-size: 158px;
+    width: 157px;
+  }
+
+  /* line 578, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 586, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 591, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxCodigo {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 601, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 609, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 614, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxPassword {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 624, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 632, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 637, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_ButtonEntrarMonitoria {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 645, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    width: calc(100% - 0px);
+    height: 42px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 653, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 42px;
+  }
+
+  /* line 658, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 670, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 675, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH {
+    padding: 0;
+  }
+
+  /* line 679, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 684, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 689, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 697, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Html2 {
+    width: 301px;
+    height: 74px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 704, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    width: calc(100% - 0px);
+    height: 15px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 712, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 15px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  /* line 720, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 725, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    visibility: visible;
+    display: table;
+  }
+
+  /* line 730, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 735, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 739, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 744, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 749, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 757, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 {
+    display: block;
+    width: 66.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 765, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 > .col-2-padding {
+    padding: 0px 5px 0px 0px;
+  }
+
+  /* line 769, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-3 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 777, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    width: calc(100% - 0px);
+    height: 53px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 785, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 53px;
+  }
+
+  /* line 790, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_TextTituloLogin {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 795, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    width: calc(100% - 0px);
+    height: 51px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 803, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 51px;
+  }
+
+  /* line 808, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_iconLogin {
+    width: 190px;
+    height: 158px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 825, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin {
+    width: 190px;
+    height: 158px;
+  }
+
+  /* line 830, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin g {
+    line-height: 158px;
+    font-size: 158px;
+    width: 157px;
+  }
+
+  /* line 836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 844, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 849, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxCodigo {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 859, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 867, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 872, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxPassword {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 882, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 890, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 895, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_ButtonEntrarMonitoria {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 903, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    width: calc(100% - 0px);
+    height: 42px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 911, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 42px;
+  }
+
+  /* line 916, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 928, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 933, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH {
+    padding: 0;
+  }
+
+  /* line 937, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 942, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 947, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 955, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Html2 {
+    width: 301px;
+    height: 74px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 962, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    width: calc(100% - 0px);
+    height: 15px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 970, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 15px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* line 978, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 983, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    visibility: visible;
+    display: table;
+  }
+
+  /* line 988, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 993, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 997, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1002, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1007, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1015, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 {
+    display: block;
+    width: 66.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1023, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 > .col-2-padding {
+    padding: 0px 5px 0px 0px;
+  }
+
+  /* line 1027, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-3 {
+    display: block;
+    width: 16.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1035, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    width: calc(100% - 0px);
+    height: 53px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1043, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 53px;
+  }
+
+  /* line 1048, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_TextTituloLogin {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 1053, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    width: calc(100% - 0px);
+    height: 51px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1061, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 51px;
+  }
+
+  /* line 1066, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_iconLogin {
+    width: 190px;
+    height: 158px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1083, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin {
+    width: 190px;
+    height: 158px;
+  }
+
+  /* line 1088, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin g {
+    line-height: 158px;
+    font-size: 158px;
+    width: 157px;
+  }
+
+  /* line 1094, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1102, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1107, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxCodigo {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 1117, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1125, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1130, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxPassword {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 1140, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1148, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1153, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_ButtonEntrarMonitoria {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1161, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    width: calc(100% - 0px);
+    height: 42px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1169, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 42px;
+  }
+
+  /* line 1174, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1186, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1191, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH {
+    padding: 0;
+  }
+
+  /* line 1195, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 1200, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 1205, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1213, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Html2 {
+    width: 301px;
+    height: 74px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1220, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    width: calc(100% - 0px);
+    height: 15px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1228, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 15px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1236, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1241, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    visibility: visible;
+    display: table;
+  }
+
+  /* line 1246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutContenidoEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1251, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1255, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1260, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1, #LayoutContenidoEH > .row > .col-2, #LayoutContenidoEH > .row > .col-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1265, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1273, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1281, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-2 > .col-2-padding {
+    padding: 0px 5px 0px 0px;
+  }
+
+  /* line 1285, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutContenidoEH > .row > .col-3 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1293, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    width: calc(100% - 0px);
+    height: 53px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1301, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 53px;
+  }
+
+  /* line 1306, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_TextTituloLogin {
+    visibility: visible;
+    display: block;
+  }
+
+  /* line 1311, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    width: calc(100% - 0px);
+    height: 51px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1319, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #separador2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 51px;
+  }
+
+  /* line 1324, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_iconLogin {
+    width: 190px;
+    height: 158px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1341, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin {
+    width: 190px;
+    height: 158px;
+  }
+
+  /* line 1346, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #iconLogin g {
+    line-height: 158px;
+    font-size: 158px;
+    width: 157px;
+  }
+
+  /* line 1352, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1360, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1365, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxCodigo {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 1375, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1383, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1388, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #EditboxPassword {
+    width: calc(100% - 0px);
+    height: 50px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+    padding: 4px 4px 4px 4px;
+    text-align: left;
+  }
+
+  /* line 1398, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 21px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1406, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 21px;
+  }
+
+  /* line 1411, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_ButtonEntrarMonitoria {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1419, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    width: calc(100% - 0px);
+    height: 42px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1427, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 42px;
+  }
+
+  /* line 1432, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1444, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #wb_LayoutGridLoginEH {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1449, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH {
+    padding: 0;
+  }
+
+  /* line 1453, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 1458, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 1463, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #LayoutGridLoginEH > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1471, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Html2 {
+    width: 301px;
+    height: 74px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1478, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    width: calc(100% - 0px);
+    height: 15px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1486, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/login-horario.scss */
+  #Line6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 15px;
+  }
+}

@@ -1,0 +1,2257 @@
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_LayoutContenidoInsMon {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon > .row > .col-1 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon:before,
+#LayoutContenidoInsMon:after,
+#LayoutContenidoInsMon .row:before,
+#LayoutContenidoInsMon .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutContenidoInsMon:after,
+#LayoutContenidoInsMon .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 74, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 80, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_LayoutGrid7 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 94, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7 {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 101, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7 .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 115, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7 > .row > .col-1 {
+  float: left;
+}
+
+/* line 119, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 127, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7:before,
+#LayoutGrid7:after,
+#LayoutGrid7 .row:before,
+#LayoutGrid7 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid7:after,
+#LayoutGrid7 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 142, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 148, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_LayoutGrid1 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 162, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1 {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 169, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1 .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 174, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 183, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1 > .row > .col-1 {
+  float: left;
+}
+
+/* line 187, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 195, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 203, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 210, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid1 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 216, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Table1 {
+  border: 0px solid #C0C0C0;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 225, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Table1 td {
+  padding: 0;
+}
+
+/* line 229, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Table1 td div {
+  white-space: nowrap;
+}
+
+/* line 233, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Table1 .cell0 {
+  background-color: transparent;
+  background-image: none;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* line 240, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_LayoutGrid3 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 254, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3 {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 261, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3 .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 266, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 275, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3 > .row > .col-1 {
+  float: left;
+}
+
+/* line 279, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 287, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 295, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 302, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 308, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line1InsMon {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 321, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_TextAdvertenciaInsMom {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 330, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_TextAdvertenciaInsMom div {
+  text-align: left;
+}
+
+/* line 334, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_LayoutFormInsMon {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 348, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon {
+  box-sizing: border-box;
+  padding: 0px 15px 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 355, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* line 360, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+/* line 369, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+  float: left;
+}
+
+/* line 373, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 8.33333333%;
+  text-align: center;
+}
+
+/* line 381, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-2 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 41.66666667%;
+  text-align: center;
+}
+
+/* line 389, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-3 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 8.33333333%;
+  text-align: center;
+}
+
+/* line 397, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-4 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 33.33333333%;
+  text-align: center;
+}
+
+/* line 405, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon > .row > .col-5 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 8.33333333%;
+  text-align: center;
+}
+
+/* line 413, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon:before,
+#LayoutFormInsMon:after,
+#LayoutFormInsMon .row:before,
+#LayoutFormInsMon .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 421, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LayoutFormInsMon:after,
+#LayoutFormInsMon .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 428, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 434, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonConfirmarInsMon {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+}
+
+/* line 441, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon {
+  margin: 0;
+}
+
+/* line 445, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-button {
+  margin: 0;
+  padding: 0;
+  line-height: 52px;
+}
+
+/* line 451, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonConfirmarInsMon {
+  color: #454545;
+  text-decoration: none;
+}
+
+/* line 456, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonConfirmarInsMon :hover {
+  color: #2B2B2B;
+}
+
+/* line 460, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonConfirmarInsMon :active {
+  color: #FFFFFF;
+}
+
+/* line 464, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-corner-all, #wb_ButtonConfirmarInsMon .ui-corner-left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 469, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-corner-all, #wb_ButtonConfirmarInsMon .ui-corner-right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 474, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-button {
+  background-color: #0076C0;
+  background-image: none;
+  border: 1px solid #0076C0;
+  color: #FFFFFF;
+}
+
+/* line 481, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-state-hover, #wb_ButtonConfirmarInsMon .ui-button:hover {
+  border-color: #0069A8;
+  background-color: #0069A8;
+  background-image: none;
+  color: #DCDCDC;
+}
+
+/* line 488, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-state-active, #wb_ButtonConfirmarInsMon .ui-button:active {
+  border-color: #2E6DA4;
+  background-color: #3370B7;
+  background-image: none;
+  color: #FFFFFF;
+}
+
+/* line 495, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-button .ui-icon {
+  background-image: url(images/inscribir-ButtonConfirmarInsMon-default.png);
+  background-position: 0 0;
+}
+
+/* line 500, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-button:hover .ui-icon {
+  background-image: url(images/inscribir-ButtonConfirmarInsMon-hover.png);
+  background-position: 0 0;
+}
+
+/* line 505, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-button:active .ui-icon {
+  background-image: url(images/inscribir-ButtonConfirmarInsMon-active.png);
+  background-position: 0 0;
+}
+
+/* line 510, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon .ui-visual-focus {
+  box-shadow: none;
+}
+
+/* line 514, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonRechazarInsMon {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+}
+
+/* line 521, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon {
+  margin: 0;
+}
+
+/* line 525, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-button {
+  margin: 0;
+  padding: 0;
+  line-height: 52px;
+}
+
+/* line 531, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonRechazarInsMon {
+  color: #454545;
+  text-decoration: none;
+}
+
+/* line 536, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonRechazarInsMon :hover {
+  color: #2B2B2B;
+}
+
+/* line 540, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonRechazarInsMon :active {
+  color: #FFFFFF;
+}
+
+/* line 544, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-corner-all, #wb_ButtonRechazarInsMon .ui-corner-left {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+/* line 549, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-corner-all, #wb_ButtonRechazarInsMon .ui-corner-right {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 554, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-button {
+  background-color: #0076C0;
+  background-image: none;
+  border: 1px solid #0069A8;
+  color: #FFFFFF;
+}
+
+/* line 561, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-state-hover, #wb_ButtonRechazarInsMon .ui-button:hover {
+  border-color: #0069A8;
+  background-color: #0069A8;
+  background-image: none;
+  color: #DCDCDC;
+}
+
+/* line 568, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-state-active, #wb_ButtonRechazarInsMon .ui-button:active {
+  border-color: #2E6DA4;
+  background-color: #3370B7;
+  background-image: none;
+  color: #FFFFFF;
+}
+
+/* line 575, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-button .ui-icon {
+  background-image: url(images/inscribir-ButtonRechazarInsMon-default.png);
+  background-position: 0 0;
+}
+
+/* line 580, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-button:hover .ui-icon {
+  background-image: url(images/inscribir-ButtonRechazarInsMon-hover.png);
+  background-position: 0 0;
+}
+
+/* line 585, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-button:active .ui-icon {
+  background-image: url(images/inscribir-ButtonRechazarInsMon-active.png);
+  background-position: 0 0;
+}
+
+/* line 590, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon .ui-visual-focus {
+  box-shadow: none;
+}
+
+/* line 594, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LineFinalInsMon {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 607, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line3InsMon {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 620, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line4InsMon {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 633, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 11px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 646, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line2InsMon {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 11px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 659, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#LineFinalInsMon {
+  display: block;
+  width: 100%;
+  z-index: 13;
+}
+
+/* line 665, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonRechazarInsMon {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 670, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Table1 {
+  display: table;
+  width: 100%;
+  height: 186px;
+  z-index: 0;
+}
+
+/* line 677, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_EmbeddedPageInsMon {
+  display: inline-block;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 683, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonRechazarInsMon {
+  display: inline-block;
+  width: 171px;
+  height: 54px;
+  z-index: 8;
+}
+
+/* line 690, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#wb_ButtonConfirmarInsMon {
+  display: inline-block;
+  width: 171px;
+  height: 54px;
+  z-index: 5;
+}
+
+/* line 697, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line1 {
+  display: block;
+  width: 100%;
+  z-index: 6;
+}
+
+/* line 703, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line2InsMon {
+  display: block;
+  width: 100%;
+  z-index: 9;
+}
+
+/* line 709, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line1InsMon {
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 715, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line3InsMon {
+  display: block;
+  width: 100%;
+  z-index: 7;
+}
+
+/* line 721, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#ButtonConfirmarInsMon {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 726, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+#Line4InsMon {
+  display: block;
+  width: 100%;
+  z-index: 4;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 734, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 739, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 751, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 756, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 760, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 765, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 770, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 778, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 790, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 795, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 {
+    padding: 0;
+  }
+
+  /* line 799, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 804, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 809, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 817, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_EmbeddedPageInsMon {
+    width: 1014px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 824, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 836, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 841, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 845, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 850, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 855, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 863, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 871, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 876, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 888, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 893, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 905, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 910, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 914, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 919, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 924, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 932, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-2 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 940, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-3 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 948, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-4 {
+    display: block;
+    width: 33.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 956, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-5 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 964, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonConfirmarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 972, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonRechazarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 980, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 988, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 993, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1001, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1006, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1014, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1019, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1027, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+
+  /* line 1032, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1040, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  /* line 1048, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1053, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1065, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1070, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1074, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1079, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1084, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1092, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1104, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1109, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 {
+    padding: 0;
+  }
+
+  /* line 1113, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 1118, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 1123, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1131, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_EmbeddedPageInsMon {
+    width: 790px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1138, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1150, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1155, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1159, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1164, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1169, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1177, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1185, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1190, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1202, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1207, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1219, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1224, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 1228, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 1233, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1238, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-2 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1254, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-3 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1262, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-4 {
+    display: block;
+    width: 33.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1270, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-5 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1278, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonConfirmarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1286, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonRechazarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1294, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1302, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1307, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1315, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1320, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1328, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1333, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1341, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+
+  /* line 1346, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1354, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* line 1362, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1367, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1379, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1384, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1388, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1393, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1398, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1406, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1418, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1423, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 {
+    padding: 0;
+  }
+
+  /* line 1427, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 1432, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 1437, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1445, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_EmbeddedPageInsMon {
+    width: 758px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1452, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1464, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1469, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1473, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1478, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1483, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1491, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1499, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1504, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1516, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1521, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1533, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1538, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 1542, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 1547, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1552, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1560, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-2 {
+    display: block;
+    width: 41.66666667%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1568, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-3 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1576, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-4 {
+    display: block;
+    width: 33.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1584, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-5 {
+    display: block;
+    width: 8.33333333%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1592, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonConfirmarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1600, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonRechazarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1608, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1616, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1621, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1629, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1634, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1642, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1647, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1655, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+
+  /* line 1660, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1668, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1676, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1681, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1693, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutContenidoInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1698, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1702, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1707, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1712, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutContenidoInsMon > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1720, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1732, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1737, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 {
+    padding: 0;
+  }
+
+  /* line 1741, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 .row {
+    margin-right: -0px;
+    margin-left: -0px;
+  }
+
+  /* line 1746, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  /* line 1751, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid7 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1759, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_EmbeddedPageInsMon {
+    width: 310px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1766, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1778, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutGrid3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1783, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1787, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1792, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1797, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutGrid3 > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1805, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1813, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1818, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1830, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_TextAdvertenciaInsMom {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1835, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1847, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_LayoutFormInsMon {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1852, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 1856, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 1861, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1, #LayoutFormInsMon > .row > .col-2, #LayoutFormInsMon > .row > .col-3, #LayoutFormInsMon > .row > .col-4, #LayoutFormInsMon > .row > .col-5 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1866, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1874, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-2 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1882, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-3 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1890, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-4 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1898, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LayoutFormInsMon > .row > .col-5 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1906, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonConfirmarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1914, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #wb_ButtonRechazarInsMon {
+    width: 171px;
+    height: 54px;
+    visibility: visible;
+    display: inline-block;
+    margin: 0;
+  }
+
+  /* line 1922, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1930, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #LineFinalInsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1935, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1943, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line3InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1948, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1956, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line4InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1961, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1969, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+
+  /* line 1974, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    width: calc(100% - 0px);
+    height: 11px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1982, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/inscribir-monitoria.scss */
+  #Line2InsMon {
+    border-color: #FFFFFF;
+    border-bottom-width: 11px;
+  }
+}

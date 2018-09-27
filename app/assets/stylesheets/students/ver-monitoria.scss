@@ -1,0 +1,1318 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridInfoUserVerMon
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridInfoUserVerMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridInfoUserVerMon:before,
+#LayoutGridInfoUserVerMon:after,
+#LayoutGridInfoUserVerMon .row:before,
+#LayoutGridInfoUserVerMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridInfoUserVerMon:after,
+#LayoutGridInfoUserVerMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGridSepVerMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridSepVerMon
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridSepVerMon .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridSepVerMon:before,
+#LayoutGridSepVerMon:after,
+#LayoutGridSepVerMon .row:before,
+#LayoutGridSepVerMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridSepVerMon:after,
+#LayoutGridSepVerMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridSepVerMon > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutContenidoVerMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContenidoVerMon
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContenidoVerMon .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   float: left;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContenidoVerMon:before,
+#LayoutContenidoVerMon:after,
+#LayoutContenidoVerMon .row:before,
+#LayoutContenidoVerMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContenidoVerMon:after,
+#LayoutContenidoVerMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContenidoVerMon > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Table1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+}
+#Line2VerMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineVerMon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#TablaMateriasVerMon
+{
+   border: 0px solid #7F7F7F;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TablaMateriasVerMon td
+{
+   padding: 4px 4px 4px 4px;
+}
+#TablaMateriasVerMon td div
+{
+   white-space: nowrap;
+}
+#TablaMateriasVerMon .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 16px;
+   line-height: 21px;
+}
+#TablaMateriasVerMon .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-family: Arial;
+   font-size: 13px;
+   line-height: 16px;
+}
+#TablaMateriasVerMon .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 13px;
+   line-height: 17px;
+}
+#Line8
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineVerMon
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#Line8
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#Table1
+{
+   display: table;
+   width: 100%;
+   height: 186px;
+   z-index: 0;
+}
+#Line2VerMon
+{
+   display: block;
+   width: 100%;
+   z-index: 3;
+}
+#wb_EmbeddedPage1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 2;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#TablaMateriasVerMon
+{
+   display: table;
+   width: 100%;
+   height: 196px;
+   z-index: 7;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridInfoUserVerMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridInfoUserVerMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridSepVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridSepVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridSepVerMon
+{
+   padding: 0;
+}
+#LayoutGridSepVerMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContenidoVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoVerMon
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutContenidoVerMon .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPage1
+{
+   width: 1014px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line2VerMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2VerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineVerMon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineVerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#TablaMateriasVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMateriasVerMon .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMateriasVerMon .cell1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMateriasVerMon .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridInfoUserVerMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridInfoUserVerMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridSepVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridSepVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridSepVerMon
+{
+   padding: 0;
+}
+#LayoutGridSepVerMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContenidoVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoVerMon
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutContenidoVerMon .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPage1
+{
+   width: 790px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line2VerMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2VerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineVerMon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineVerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#TablaMateriasVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMateriasVerMon .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMateriasVerMon .cell1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMateriasVerMon .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridInfoUserVerMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridInfoUserVerMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridSepVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridSepVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridSepVerMon
+{
+   padding: 0;
+}
+#LayoutGridSepVerMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContenidoVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoVerMon
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutContenidoVerMon .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPage1
+{
+   width: 758px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line2VerMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2VerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineVerMon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineVerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#TablaMateriasVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMateriasVerMon .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMateriasVerMon .cell1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMateriasVerMon .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridInfoUserVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridInfoUserVerMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridInfoUserVerMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridInfoUserVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridSepVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridSepVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridSepVerMon
+{
+   padding: 0;
+}
+#LayoutGridSepVerMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridSepVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContenidoVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoVerMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoVerMon
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutContenidoVerMon .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutContenidoVerMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_EmbeddedPage1
+{
+   width: 310px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line2VerMon
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2VerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineVerMon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineVerMon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#TablaMateriasVerMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMateriasVerMon .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMateriasVerMon .cell1
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMateriasVerMon .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+}

@@ -1,0 +1,2195 @@
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_LayoutContenido {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido > .row > .col-1 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido:before,
+#LayoutContenido:after,
+#LayoutContenido .row:before,
+#LayoutContenido .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutContenido:after,
+#LayoutContenido .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 74, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 80, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep6 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 26px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 93, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoEstudiante {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 102, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoEstudiante {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 17px;
+}
+
+/* line 108, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoEstudiante div {
+  text-align: left;
+}
+
+/* line 112, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep5 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 19px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 125, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_LayoutEstudiantes {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 139, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes {
+  box-sizing: border-box;
+  padding: 0px 15px 0px 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 146, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* line 151, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+/* line 160, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+  float: left;
+}
+
+/* line 164, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 50%;
+  text-align: center;
+}
+
+/* line 172, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes > .row > .col-2 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 50%;
+  text-align: center;
+}
+
+/* line 180, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes:before,
+#LayoutEstudiantes:after,
+#LayoutEstudiantes .row:before,
+#LayoutEstudiantes .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 188, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LayoutEstudiantes:after,
+#LayoutEstudiantes .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 195, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 201, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconHorarios {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 213, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconHorarios:hover {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+}
+
+/* line 219, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#IconHorarios {
+  height: 213px;
+  width: 204px;
+}
+
+/* line 224, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+.IconHorarios {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* line 235, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+.IconHorarios:before {
+  content: "\e865";
+}
+
+/* line 239, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#IconHorarios i {
+  color: #0076C0;
+  display: inline-block;
+  font-size: 204px;
+  line-height: 213px;
+  vertical-align: middle;
+  width: 203px;
+}
+
+/* line 248, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconHorarios:hover i {
+  color: #337AB7;
+}
+
+/* line 252, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconoMonitorias {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 264, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconoMonitorias:hover {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #245580;
+}
+
+/* line 270, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#IconoMonitorias {
+  height: 213px;
+  width: 204px;
+}
+
+/* line 275, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+.IconoMonitorias {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+/* line 286, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+.IconoMonitorias:before {
+  content: "\e8a3";
+}
+
+/* line 290, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#IconoMonitorias i {
+  color: #0076C0;
+  display: inline-block;
+  font-size: 204px;
+  line-height: 213px;
+  vertical-align: middle;
+  width: 203px;
+}
+
+/* line 299, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconoMonitorias:hover i {
+  color: #337AB7;
+}
+
+/* line 303, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep4 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 13px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 316, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep3 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 13px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 329, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoHorario {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 338, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoHorario {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 17px;
+}
+
+/* line 344, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoHorario div {
+  text-align: left;
+}
+
+/* line 348, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoMonitoria {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* line 357, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoMonitoria {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 17px;
+}
+
+/* line 363, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_TextoMonitoria div {
+  text-align: left;
+}
+
+/* line 367, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloHorario {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 376, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloHorario {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 32px;
+}
+
+/* line 382, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloHorario div {
+  text-align: center;
+}
+
+/* line 386, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#Line1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 12px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 399, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloMonitoria {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #000000;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 408, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloMonitoria {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 32px;
+}
+
+/* line 414, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_tituloMonitoria div {
+  text-align: center;
+}
+
+/* line 418, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep1 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 12px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 431, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#Line2 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 12px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 444, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep2 {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 12px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 457, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep1 {
+  display: block;
+  width: 100%;
+  z-index: 7;
+}
+
+/* line 463, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep2 {
+  display: block;
+  width: 100%;
+  z-index: 11;
+}
+
+/* line 469, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep3 {
+  display: block;
+  width: 100%;
+  z-index: 9;
+}
+
+/* line 475, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconHorarios {
+  display: inline-block;
+  width: 204px;
+  height: 213px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* line 483, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep4 {
+  display: block;
+  width: 100%;
+  z-index: 3;
+}
+
+/* line 489, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep5 {
+  display: block;
+  width: 100%;
+  z-index: 14;
+}
+
+/* line 495, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#LineSep6 {
+  display: block;
+  width: 100%;
+  z-index: 12;
+}
+
+/* line 501, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#Line1 {
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
+/* line 507, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#Line2 {
+  display: block;
+  width: 100%;
+  z-index: 5;
+}
+
+/* line 513, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+#wb_IconoMonitorias {
+  display: inline-block;
+  width: 204px;
+  height: 213px;
+  text-align: center;
+  z-index: 8;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 523, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 528, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 540, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 545, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 549, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 554, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 559, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 567, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    width: calc(100% - 0px);
+    height: 26px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 575, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 26px;
+  }
+
+  /* line 580, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 592, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 601, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    width: calc(100% - 0px);
+    height: 19px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 609, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    border-color: #FFFFFF;
+    border-bottom-width: 19px;
+  }
+
+  /* line 614, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 626, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 631, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 635, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 640, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 645, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 653, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-2 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 661, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconHorarios {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 678, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 683, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 689, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconoMonitorias {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 706, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 711, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 717, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 725, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 730, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 738, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 743, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 755, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 764, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 776, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 785, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 797, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 806, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 814, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 819, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 831, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 840, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 848, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 853, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 861, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 866, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 874, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  /* line 882, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 887, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 899, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 904, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 908, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 913, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 918, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 926, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    width: calc(100% - 0px);
+    height: 26px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 934, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 26px;
+  }
+
+  /* line 939, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 951, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 960, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    width: calc(100% - 0px);
+    height: 19px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 968, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    border-color: #FFFFFF;
+    border-bottom-width: 19px;
+  }
+
+  /* line 973, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 985, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 990, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 994, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 999, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1004, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1012, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-2 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1020, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconHorarios {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1037, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1042, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1048, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconoMonitorias {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1065, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1070, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1076, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1084, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1089, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1097, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1102, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1114, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1123, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1144, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1156, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1165, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1173, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1178, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1190, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1199, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1207, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1212, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1220, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1225, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1233, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* line 1241, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1258, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1263, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1267, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1272, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1277, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1285, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    width: calc(100% - 0px);
+    height: 26px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1293, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 26px;
+  }
+
+  /* line 1298, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1310, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1319, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    width: calc(100% - 0px);
+    height: 19px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1327, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    border-color: #FFFFFF;
+    border-bottom-width: 19px;
+  }
+
+  /* line 1332, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1344, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1349, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 1353, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 1358, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1363, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1371, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-2 {
+    display: block;
+    width: 50%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1379, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconHorarios {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1396, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1401, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1407, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconoMonitorias {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1424, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1429, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1435, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1443, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1448, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1456, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1461, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1473, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1482, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1494, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1503, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1515, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1524, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1532, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1537, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1549, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1558, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1566, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1571, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1579, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1584, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1592, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1600, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1605, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1617, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutContenido {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1622, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1626, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1631, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1636, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutContenido > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1644, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    width: calc(100% - 0px);
+    height: 26px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1652, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep6 {
+    border-color: #FFFFFF;
+    border-bottom-width: 26px;
+  }
+
+  /* line 1657, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1669, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoEstudiante {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1678, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    width: calc(100% - 0px);
+    height: 19px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1686, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep5 {
+    border-color: #FFFFFF;
+    border-bottom-width: 19px;
+  }
+
+  /* line 1691, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1703, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_LayoutEstudiantes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1708, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes {
+    padding: 0px 15px 0px 15px;
+  }
+
+  /* line 1712, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  /* line 1717, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  /* line 1722, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1730, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LayoutEstudiantes > .row > .col-2 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1738, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconHorarios {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1755, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1760, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconHorarios i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1766, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_IconoMonitorias {
+    width: 204px;
+    height: 213px;
+    visibility: visible;
+    display: inline-block;
+    color: #0076C0;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 1783, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias {
+    width: 204px;
+    height: 213px;
+  }
+
+  /* line 1788, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #IconoMonitorias i {
+    line-height: 213px;
+    font-size: 204px;
+    width: 203px;
+  }
+
+  /* line 1794, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1802, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep4 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1807, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    width: calc(100% - 0px);
+    height: 13px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1815, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep3 {
+    border-color: #FFFFFF;
+    border-bottom-width: 13px;
+  }
+
+  /* line 1820, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1832, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1841, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1853, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_TextoMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  /* line 1862, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1874, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloHorario {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1883, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1891, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1896, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    visibility: visible;
+    display: block;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1908, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #wb_tituloMonitoria {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  /* line 1917, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1925, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep1 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1930, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1938, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #Line2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+
+  /* line 1943, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    width: calc(100% - 0px);
+    height: 12px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1951, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/index-estudiante.scss */
+  #LineSep2 {
+    border-color: #FFFFFF;
+    border-bottom-width: 12px;
+  }
+}

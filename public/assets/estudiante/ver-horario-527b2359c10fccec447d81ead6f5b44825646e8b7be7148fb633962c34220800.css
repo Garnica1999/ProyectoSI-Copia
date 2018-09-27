@@ -1,0 +1,1512 @@
+/* line 1, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.1875;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#wb_LayoutCotenidoVerEst {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 26, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 33, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 38, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 47, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst > .row > .col-1 {
+  float: left;
+}
+
+/* line 51, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 59, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst:before,
+#LayoutCotenidoVerEst:after,
+#LayoutCotenidoVerEst .row:before,
+#LayoutCotenidoVerEst .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 67, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutCotenidoVerEst:after,
+#LayoutCotenidoVerEst .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 74, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 80, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#wb_LayoutMateriasVerEst {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 94, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst {
+  box-sizing: border-box;
+  padding: 0px 10px 0px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 101, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst .row {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+/* line 106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+/* line 115, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst > .row > .col-1 {
+  float: left;
+}
+
+/* line 119, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 127, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst:before,
+#LayoutMateriasVerEst:after,
+#LayoutMateriasVerEst .row:before,
+#LayoutMateriasVerEst .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutMateriasVerEst:after,
+#LayoutMateriasVerEst .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 142, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 148, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#wb_LayoutGrid1 {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 162, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1 {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 169, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1 .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 174, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+/* line 183, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  float: left;
+}
+
+/* line 187, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1 > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 195, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 203, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 210, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGrid1 > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 216, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#Table1 {
+  border: 0px solid #C0C0C0;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: separate;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 225, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#Table1 td {
+  padding: 0;
+}
+
+/* line 229, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#Table1 td div {
+  white-space: nowrap;
+}
+
+/* line 233, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#Table1 .cell0 {
+  background-color: transparent;
+  background-image: none;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* line 240, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#wb_LayoutGridSep {
+  clear: both;
+  position: relative;
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #CCCCCC;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* line 254, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep {
+  box-sizing: border-box;
+  padding: 0px 5px 0px 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 261, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+/* line 266, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep > .row > .col-1 {
+  box-sizing: border-box;
+  font-size: 0px;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+
+/* line 275, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep > .row > .col-1 {
+  float: left;
+}
+
+/* line 279, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep > .row > .col-1 {
+  background-color: transparent;
+  background-image: none;
+  border: 0px solid #FFFFFF;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 287, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep:before,
+#LayoutGridSep:after,
+#LayoutGridSep .row:before,
+#LayoutGridSep .row:after {
+  display: table;
+  content: " ";
+}
+
+/* line 295, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LayoutGridSep:after,
+#LayoutGridSep .row:after {
+  clear: both;
+}
+
+@media (max-width: 480px) {
+  /* line 302, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    float: none;
+    width: 100% !important;
+  }
+}
+/* line 308, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSepVerEst {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 321, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias {
+  border: 0px solid #7F7F7F;
+  background-color: transparent;
+  background-image: none;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin: 0;
+}
+
+/* line 330, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias td {
+  padding: 4px 4px 4px 4px;
+}
+
+/* line 334, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias td div {
+  white-space: nowrap;
+}
+
+/* line 338, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias .cell0 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* line 360, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias .cell1 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 382, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias .cell2 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: middle;
+  font-family: "Segoe UI";
+  font-size: 13px;
+  line-height: 17px;
+}
+
+/* line 404, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias .cell3 {
+  background-color: transparent;
+  background-image: none;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7F7F7F;
+  border-right-color: #7F7F7F;
+  border-bottom-color: #7F7F7F;
+  border-left-color: #7F7F7F;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* line 423, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSep3VerEst {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 436, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSep2VerEst {
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-bottom-width: 24px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  height: 0 !important;
+  line-height: 0px !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 449, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSep2VerEst {
+  display: block;
+  width: 100%;
+  z-index: 7;
+}
+
+/* line 455, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSep3VerEst {
+  display: block;
+  width: 100%;
+  z-index: 5;
+}
+
+/* line 461, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#LineSepVerEst {
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 467, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#Table1 {
+  display: table;
+  width: 100%;
+  height: 186px;
+  z-index: 0;
+}
+
+/* line 474, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#wb_EmbeddedPage1 {
+  display: inline-block;
+  width: 100%;
+  z-index: 3;
+}
+
+/* line 480, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+#TablaMaterias {
+  display: table;
+  width: 100%;
+  height: 196px;
+  z-index: 6;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  /* line 489, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 494, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 506, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 511, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 515, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 520, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 525, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 533, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 545, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 550, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 554, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 559, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 564, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 572, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_EmbeddedPage1 {
+    width: 1014px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 579, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 591, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 596, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 600, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 605, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 610, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 618, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 626, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 631, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    border: 0px solid #C0C0C0;
+  }
+
+  /* line 644, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 652, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 660, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 668, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 676, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 684, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 689, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 697, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  /* line 705, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 710, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 722, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 727, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 731, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 736, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 741, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 749, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 761, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 766, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 770, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 775, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 780, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 788, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_EmbeddedPage1 {
+    width: 790px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 795, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 807, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 812, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 816, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 821, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 826, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 834, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 842, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 847, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 859, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 867, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 875, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 883, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 891, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 899, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 904, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 912, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  /* line 920, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 925, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 937, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 942, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 946, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 951, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 956, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 964, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 976, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 981, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 985, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 990, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 995, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1003, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_EmbeddedPage1 {
+    width: 758px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1010, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1022, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1027, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1031, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1036, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1041, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1049, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1057, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1062, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1074, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 1082, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1090, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1098, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1106, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1114, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 1119, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1127, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1135, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  body {
+    background-color: #FFFFFF;
+    background-image: none;
+  }
+
+  /* line 1140, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1152, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutCotenidoVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1157, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1161, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1166, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1171, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutCotenidoVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1179, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    visibility: visible;
+    display: table;
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1191, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutMateriasVerEst {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1196, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst {
+    padding: 0px 10px 0px 10px;
+  }
+
+  /* line 1200, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  /* line 1205, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  /* line 1210, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutMateriasVerEst > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: left;
+  }
+
+  /* line 1218, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_EmbeddedPage1 {
+    width: 310px;
+    height: 186px;
+    visibility: visible;
+    display: inline-block;
+  }
+
+  /* line 1225, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1237, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #wb_LayoutGridSep {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  /* line 1242, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep {
+    padding: 0px 5px 0px 5px;
+  }
+
+  /* line 1246, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep .row {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+
+  /* line 1251, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  /* line 1256, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LayoutGridSep > .row > .col-1 {
+    display: block;
+    width: 100%;
+    border: 0px solid #FFFFFF;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  /* line 1264, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1272, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSepVerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+
+  /* line 1277, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias {
+    visibility: visible;
+    display: table;
+    font-size: 8px;
+    font-family: Arial;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  /* line 1289, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell0 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+    line-height: 21px;
+  }
+
+  /* line 1297, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell1 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1305, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell2 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1313, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #TablaMaterias .cell3 {
+    font-family: "Segoe UI";
+    font-weight: normal;
+    font-size: 13px;
+    text-align: left;
+    line-height: 17px;
+  }
+
+  /* line 1321, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    width: calc(100% - 0px);
+    height: 10px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1329, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep3VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 10px;
+  }
+
+  /* line 1334, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    width: calc(100% - 0px);
+    height: 24px;
+    visibility: visible;
+    display: block;
+    margin: 0;
+  }
+
+  /* line 1342, C:/Users/Carlos/Desktop/pagina web proyecto/web_ruby/app/assets/stylesheets/estudiante/ver-horario.scss */
+  #LineSep2VerEst {
+    border-color: #FFFFFF;
+    border-bottom-width: 24px;
+  }
+}

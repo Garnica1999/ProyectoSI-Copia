@@ -1,0 +1,645 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridEstud
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridEstud:before,
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:before,
+#LayoutGridEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Line1Estud
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 14px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#TableEstudiantesEstud
+{
+   border: 0px solid #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableEstudiantesEstud td
+{
+   padding: 8px 8px 8px 8px;
+}
+#TableEstudiantesEstud td div
+{
+   white-space: nowrap;
+}
+#TableEstudiantesEstud .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 2px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 19px;
+   line-height: 25px;
+}
+#TableEstudiantesEstud .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 16px;
+   line-height: 21px;
+}
+#TableEstudiantesEstud .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+}
+#TableEstudiantesEstud tr:nth-child(odd)
+{
+   background-color: #F9F9F9;
+}
+#Line2Estud
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 14px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#TableEstudiantesEstud
+{
+   display: table;
+   width: 100%;
+   height: 242px;
+   z-index: 1;
+}
+#Line2Estud
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#Line1Estud
+{
+   display: block;
+   width: 100%;
+   z-index: 0;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#TableEstudiantesEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#TableEstudiantesEstud .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 19px;
+   text-align: center;
+   line-height: 25px;
+}
+#TableEstudiantesEstud .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#TableEstudiantesEstud .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#Line2Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#TableEstudiantesEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TableEstudiantesEstud .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 19px;
+   text-align: center;
+   line-height: 25px;
+}
+#TableEstudiantesEstud .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#TableEstudiantesEstud .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#Line2Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#TableEstudiantesEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TableEstudiantesEstud .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 19px;
+   text-align: center;
+   line-height: 25px;
+}
+#TableEstudiantesEstud .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#TableEstudiantesEstud .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#Line2Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#TableEstudiantesEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TableEstudiantesEstud .cell0
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 19px;
+   text-align: center;
+   line-height: 25px;
+}
+#TableEstudiantesEstud .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#TableEstudiantesEstud .cell2
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: center;
+   line-height: 21px;
+}
+#Line2Estud
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2Estud
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+}

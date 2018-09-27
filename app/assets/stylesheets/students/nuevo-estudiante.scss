@@ -1,0 +1,2656 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridEstud
+{
+   box-sizing: border-box;
+   padding: 0px 200px 0px 200px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 200px;
+   padding-left: 200px;
+   position: relative;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridEstud:before,
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:before,
+#LayoutGridEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Line1NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 14px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridFormEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridFormEstud
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridFormEstud:before,
+#LayoutGridFormEstud:after,
+#LayoutGridFormEstud .row:before,
+#LayoutGridFormEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridFormEstud:after,
+#LayoutGridFormEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridFormEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#EditboxDocumentoRegEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxDocumentoRegEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxDocumentoRegEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#wb_TextTituloRegEst 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextTituloRegEst div
+{
+   text-align: center;
+}
+#EditboxNombreRegEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxNombreRegEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxNombreRegEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#EditboxApellidosRegEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxApellidosRegEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxApellidosRegEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#Line3NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line4NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line7NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line5NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxClaveRegEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxClaveRegEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxClaveRegEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#Line6NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonRegistrarEstRegEst
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   border-width: 1px;
+   margin: 0;
+}
+#ButtonRegistrarEstRegEst .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ButtonRegistrarEstRegEst.ui-corner-all
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#ButtonRegistrarEstRegEst.ui-corner-all
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_IconFont1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #0069A8;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_IconFont1:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#IconFont1
+{
+   height: 187px;
+   width: 279px;
+}
+.IconFont1
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.IconFont1:before
+{
+   content: "\e7fe";
+}
+#IconFont1 i
+{
+   color: #0069A8;
+   display: inline-block;
+   font-size: 187px;
+   line-height: 187px;
+   vertical-align: middle;
+   width: 186px;
+}
+#wb_IconFont1:hover i
+{
+   color: #337AB7;
+}
+#Line8NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LabelTipoRegEst
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   margin: 0;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   position: relative;
+}
+#wb_RadioButtonEstudianteRegEst, #wb_RadioButtonEstudianteRegEst *, #wb_RadioButtonEstudianteRegEst *::before, #wb_RadioButtonEstudianteRegEst *::after
+{
+   box-sizing: border-box;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+}
+#wb_RadioButtonEstudianteRegEst label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_RadioButtonEstudianteRegEst label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 50%;
+}
+#wb_RadioButtonEstudianteRegEst label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 34px;
+   border-radius: 50%;
+   color: #FFFFFF;
+   content: " ";
+   -webkit-transform: scale(0, 0);
+   -moz-transform: scale(0, 0);
+   transform: scale(0, 0);
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+   -webkit-transform: scale(0.8, 0.8);
+   -moz-transform: scale(0.8, 0.8);
+   transform: scale(0.8, 0.8);
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:focus + label::before
+{
+   outline: thin dotted;
+}
+#LabelEstudianteRegEst
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LabelEgresadoRegEst
+{
+   border: 0px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   vertical-align: top;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   margin: 0;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   position: relative;
+}
+#wb_RadioButtonEgresadoRegEst, #wb_RadioButtonEgresadoRegEst *, #wb_RadioButtonEgresadoRegEst *::before, #wb_RadioButtonEgresadoRegEst *::after
+{
+   box-sizing: border-box;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+}
+#wb_RadioButtonEgresadoRegEst label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_RadioButtonEgresadoRegEst label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 50%;
+}
+#wb_RadioButtonEgresadoRegEst label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 34px;
+   height: 34px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 34px;
+   border-radius: 50%;
+   color: #FFFFFF;
+   content: " ";
+   -webkit-transform: scale(0, 0);
+   -moz-transform: scale(0, 0);
+   transform: scale(0, 0);
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+   -webkit-transform: scale(0.8, 0.8);
+   -moz-transform: scale(0.8, 0.8);
+   transform: scale(0.8, 0.8);
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:focus + label::before
+{
+   outline: thin dotted;
+}
+#EditboxConfClaveRegEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxConfClaveRegEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxConfClaveRegEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#Line10NewEst
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextErrorRegEst 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextErrorRegEst div
+{
+   text-align: left;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#RadioButtonEstudianteRegEst
+{
+   display: inline-block;
+}
+#Line10NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 17;
+}
+#ButtonRegistrarEstRegEst
+{
+   display: inline-block;
+   width: 301px;
+   height: 54px;
+   z-index: 20;
+}
+#LabelTipoRegEst
+{
+   display: block;
+   width: 100%;
+   z-index: 9;
+}
+#RadioButtonEgresadoRegEst
+{
+   display: inline-block;
+}
+#EditboxNombreRegEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 5;
+}
+#EditboxClaveRegEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 16;
+}
+#Line2NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#Line1NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 24;
+}
+#LabelEgresadoRegEst
+{
+   display: inline-block;
+   width: 171px;
+   z-index: 13;
+}
+#Line3NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#wb_IconFont1
+{
+   display: inline-block;
+   width: 279px;
+   height: 187px;
+   text-align: center;
+   z-index: 2;
+}
+#EditboxConfClaveRegEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 18;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   display: inline-block;
+   width: 171px;
+   height: 34px;
+   z-index: 12;
+}
+#Line4NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#EditboxApellidosRegEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 7;
+}
+#Line5NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 1;
+}
+#Line6NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 19;
+}
+#LabelEstudianteRegEst
+{
+   display: inline-block;
+   width: 171px;
+   z-index: 11;
+}
+#Line7NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 21;
+}
+#Line8NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 15;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 10;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 23;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   display: inline-block;
+   width: 171px;
+   height: 34px;
+   z-index: 14;
+}
+#EditboxDocumentoRegEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 3;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1NewEst
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#Line2NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#EditboxDocumentoRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_TextTituloRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+#EditboxNombreRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxApellidosRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line3NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line4NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line7NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line7NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line5NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line6NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ButtonRegistrarEstRegEst
+{
+   width: 301px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_IconFont1
+{
+   width: 279px;
+   height: 187px;
+   visibility: visible;
+   display: inline-block;
+   color: #0069A8;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconFont1
+{
+   width: 279px;
+   height: 187px;
+}
+#IconFont1 i
+{
+   line-height: 187px;
+   font-size: 187px;
+   width: 86px;
+}
+#Line8NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line8NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelTipoRegEst
+{
+   width: calc(100% - 0px);
+   height: 29px;
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEstudianteRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEstudianteRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#LabelEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEgresadoRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEgresadoRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#EditboxConfClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line10NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_TextErrorRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1NewEst
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#Line2NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#EditboxDocumentoRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_TextTituloRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+#EditboxNombreRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxApellidosRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line3NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line4NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line7NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line7NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line5NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line6NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ButtonRegistrarEstRegEst
+{
+   width: 301px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_IconFont1
+{
+   width: 279px;
+   height: 187px;
+   visibility: visible;
+   display: inline-block;
+   color: #0069A8;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconFont1
+{
+   width: 279px;
+   height: 187px;
+}
+#IconFont1 i
+{
+   line-height: 187px;
+   font-size: 187px;
+   width: 86px;
+}
+#Line8NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line8NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelTipoRegEst
+{
+   width: calc(100% - 0px);
+   height: 29px;
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEstudianteRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEstudianteRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#LabelEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEgresadoRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEgresadoRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#EditboxConfClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line10NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_TextErrorRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1NewEst
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#Line2NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#EditboxDocumentoRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_TextTituloRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+#EditboxNombreRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxApellidosRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line3NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line4NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line7NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line7NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line5NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line6NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ButtonRegistrarEstRegEst
+{
+   width: 301px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_IconFont1
+{
+   width: 279px;
+   height: 187px;
+   visibility: visible;
+   display: inline-block;
+   color: #0069A8;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconFont1
+{
+   width: 279px;
+   height: 187px;
+}
+#IconFont1 i
+{
+   line-height: 187px;
+   font-size: 187px;
+   width: 86px;
+}
+#Line8NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line8NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelTipoRegEst
+{
+   width: calc(100% - 0px);
+   height: 29px;
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEstudianteRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEstudianteRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#LabelEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEgresadoRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEgresadoRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#EditboxConfClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line10NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_TextErrorRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line1NewEst
+{
+   width: calc(100% - 0px);
+   height: 14px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 14px;
+}
+#Line2NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#EditboxDocumentoRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_TextTituloRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+#EditboxNombreRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxApellidosRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line3NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line4NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line7NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line7NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#Line5NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line5NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line6NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ButtonRegistrarEstRegEst
+{
+   width: 301px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_IconFont1
+{
+   width: 279px;
+   height: 187px;
+   visibility: visible;
+   display: inline-block;
+   color: #0069A8;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconFont1
+{
+   width: 279px;
+   height: 187px;
+}
+#IconFont1 i
+{
+   line-height: 187px;
+   font-size: 187px;
+   width: 86px;
+}
+#Line8NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line8NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelTipoRegEst
+{
+   width: calc(100% - 0px);
+   height: 29px;
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEstudianteRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEstudianteRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#LabelEstudianteRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#LabelEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 16px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border-radius: 4px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_RadioButtonEgresadoRegEst
+{
+   width: 171px;
+   height: 34px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']
+{
+   width: 34px;
+   height: 34px;
+}
+#wb_RadioButtonEgresadoRegEst label::before
+{
+   width: 34px;
+   height: 34px;
+   border-color: #CCCCCC;
+}
+#wb_RadioButtonEgresadoRegEst label::after
+{
+   width: 34px;
+   height: 34px;
+   line-height: 34px;
+   color: #FFFFFF;
+}
+#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
+{
+   background-color: #0076C0;
+   background-image: none;
+   border-color: #0076C0;
+}
+#EditboxConfClaveRegEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line10NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line10NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_TextErrorRegEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorRegEst
+{
+   margin: 0;
+   padding: 0;
+}
+}

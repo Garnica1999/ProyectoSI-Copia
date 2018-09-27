@@ -1,0 +1,103 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridInfoEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridInfoEstud
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridInfoEstud .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGridInfoEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGridInfoEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridInfoEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridInfoEstud:before,
+#LayoutGridInfoEstud:after,
+#LayoutGridInfoEstud .row:before,
+#LayoutGridInfoEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridInfoEstud:after,
+#LayoutGridInfoEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridInfoEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Table1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+}

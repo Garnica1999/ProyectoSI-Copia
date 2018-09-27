@@ -1,0 +1,1624 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutLoginMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutLoginMon
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutLoginMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   float: left;
+}
+#LayoutLoginMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutLoginMon > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutLoginMon:before,
+#LayoutLoginMon:after,
+#LayoutLoginMon .row:before,
+#LayoutLoginMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutLoginMon:after,
+#LayoutLoginMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#separador1Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 53px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextTituloLoginMon div
+{
+   text-align: center;
+}
+#separador2Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 51px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_iconLoginMonitoria
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 158px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_iconLoginMonitoria:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#iconLoginMonitoria
+{
+   vertical-align: middle;
+}
+#iconLoginMonitoria g
+{
+   fill: #0076C0;
+   display: inline-block;
+   font-size: 158px;
+   vertical-align: middle;
+   width: 157px;
+}
+#wb_iconLoginMonitoria:hover g
+{
+   fill: #337AB7;
+}
+#separador3Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxCodigo:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxCodigo::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxCodigo::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#separador4Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxPassword:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxPassword::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxPassword::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#separador5Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxCodMateria:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxCodMateria::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxCodMateria::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#separador6Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 20px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonEntrarMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+   border-width: 1px;
+}
+#wb_ButtonEntrarMonitoria
+{
+   margin: 0;
+}
+#wb_ButtonEntrarMonitoria .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 52px;
+}
+#ButtonEntrarMonitoria
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonEntrarMonitoria :hover
+{
+   color: #2B2B2B;
+}
+#ButtonEntrarMonitoria :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonEntrarMonitoria .ui-corner-all, #wb_ButtonEntrarMonitoria .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonEntrarMonitoria .ui-corner-all, #wb_ButtonEntrarMonitoria .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_LayoutFormMon
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutFormMon
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutFormMon .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutFormMon > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutFormMon > .row > .col-1
+{
+   float: left;
+}
+#LayoutFormMon > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutFormMon:before,
+#LayoutFormMon:after,
+#LayoutFormMon .row:before,
+#LayoutFormMon .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutFormMon:after,
+#LayoutFormMon .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutFormMon > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#separador7Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#separador8Mon
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 15px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxPassword
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 7;
+}
+#separador8Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 14;
+}
+#separador7Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 12;
+}
+#EditboxCodMateria
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 9;
+}
+#separador6Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 10;
+}
+#iconLoginMonitoria
+{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#wb_ButtonEntrarMonitoria
+{
+   display: inline-block;
+   width: 301px;
+   height: 54px;
+   z-index: 13;
+}
+#separador5Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#separador4Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#EditboxCodigo
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 5;
+}
+#separador3Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#Html2
+{
+   display: inline-block;
+   width: 301px;
+   height: 74px;
+   z-index: 11;
+}
+#separador2Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#separador1Mon
+{
+   display: block;
+   width: 100%;
+   z-index: 0;
+}
+#ButtonEntrarMonitoria
+{
+   width: 100%;
+   height: 100%;
+}
+#wb_iconLoginMonitoria
+{
+   display: inline-block;
+   width: 190px;
+   height: 158px;
+   text-align: center;
+   z-index: 3;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutLoginMon
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutLoginMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutLoginMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutLoginMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutLoginMon > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutLoginMon > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1Mon
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginMon
+{
+   visibility: visible;
+   display: block;
+}
+#separador2Mon
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLoginMonitoria g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#separador3Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador3Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodigo
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador4Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador4Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador5Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador5Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodMateria
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador6Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador6Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Html2
+{
+   width: 190px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_ButtonEntrarMonitoria
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutFormMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMon
+{
+   padding: 0;
+}
+#LayoutFormMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#separador7Mon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador7Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#separador8Mon
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador8Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutLoginMon
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutLoginMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutLoginMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutLoginMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutLoginMon > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutLoginMon > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1Mon
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginMon
+{
+   visibility: visible;
+   display: block;
+}
+#separador2Mon
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLoginMonitoria g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#separador3Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador3Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodigo
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador4Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador4Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador5Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador5Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodMateria
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador6Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador6Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Html2
+{
+   width: 190px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_ButtonEntrarMonitoria
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutFormMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMon
+{
+   padding: 0;
+}
+#LayoutFormMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#separador7Mon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador7Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#separador8Mon
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador8Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutLoginMon
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutLoginMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutLoginMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutLoginMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutLoginMon > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutLoginMon > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1Mon
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginMon
+{
+   visibility: visible;
+   display: block;
+}
+#separador2Mon
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLoginMonitoria g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#separador3Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador3Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodigo
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador4Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador4Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador5Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador5Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodMateria
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador6Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador6Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Html2
+{
+   width: 190px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_ButtonEntrarMonitoria
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutFormMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMon
+{
+   padding: 0;
+}
+#LayoutFormMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#separador7Mon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador7Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#separador8Mon
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador8Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutLoginMon
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutLoginMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutLoginMon
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutLoginMon .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutLoginMon > .row > .col-1, #LayoutLoginMon > .row > .col-2, #LayoutLoginMon > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutLoginMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutLoginMon > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutLoginMon > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1Mon
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginMon
+{
+   visibility: visible;
+   display: block;
+}
+#separador2Mon
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLoginMonitoria
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLoginMonitoria g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#separador3Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador3Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodigo
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador4Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador4Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador5Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador5Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxCodMateria
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#separador6Mon
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador6Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Html2
+{
+   width: 190px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_ButtonEntrarMonitoria
+{
+   width: 171px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_LayoutFormMon
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMon
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMon
+{
+   padding: 0;
+}
+#LayoutFormMon .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutFormMon > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#separador7Mon
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador7Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#separador8Mon
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador8Mon
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+}

@@ -1,0 +1,3992 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContenidoIEst
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContenidoIEst
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContenidoIEst .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   float: left;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContenidoIEst:before,
+#LayoutContenidoIEst:after,
+#LayoutContenidoIEst .row:before,
+#LayoutContenidoIEst .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContenidoIEst:after,
+#LayoutContenidoIEst .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContenidoIEst > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutMaterias
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutMaterias
+{
+   box-sizing: border-box;
+   padding: 0px 10px 0px 10px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutMaterias .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 10px;
+   padding-left: 10px;
+   position: relative;
+}
+#LayoutMaterias > .row > .col-1
+{
+   float: left;
+}
+#LayoutMaterias > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutMaterias:before,
+#LayoutMaterias:after,
+#LayoutMaterias .row:before,
+#LayoutMaterias .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutMaterias:after,
+#LayoutMaterias .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutMaterias > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutFormMaterias
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutFormMaterias
+{
+   box-sizing: border-box;
+   padding: 0px 20px 0px 20px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutFormMaterias .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 20px;
+   padding-left: 20px;
+   position: relative;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   float: left;
+}
+#LayoutFormMaterias > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: center;
+}
+#LayoutFormMaterias > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 41.66666667%;
+   text-align: center;
+}
+#LayoutFormMaterias:before,
+#LayoutFormMaterias:after,
+#LayoutFormMaterias .row:before,
+#LayoutFormMaterias .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutFormMaterias:after,
+#LayoutFormMaterias .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Table1
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 0px;
+   margin: 0;
+}
+#Table1 td
+{
+   padding: 0;
+}
+#Table1 td div
+{
+   white-space: nowrap;
+}
+#Table1 .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid3
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid3:before,
+#LayoutGrid3:after,
+#LayoutGrid3 .row:before,
+#LayoutGrid3 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid3:after,
+#LayoutGrid3 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#LineSep1Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#TablaMaterias
+{
+   border: 0px solid #7F7F7F;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TablaMaterias td
+{
+   padding: 4px 4px 4px 4px;
+}
+#TablaMaterias .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-size: 0;
+}
+#TablaMaterias .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 1px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 16px;
+   line-height: 21px;
+}
+#TablaMaterias .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-size: 0;
+}
+#TablaMaterias .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+   font-family: "Segoe UI";
+   font-size: 13px;
+   line-height: 17px;
+}
+#TablaMaterias .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: middle;
+   font-family: "Segoe UI";
+   font-size: 13px;
+   line-height: 17px;
+}
+#TablaMaterias .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #7F7F7F;
+   border-right-color: #7F7F7F;
+   border-bottom-color: #7F7F7F;
+   border-left-color: #7F7F7F;
+   text-align: left;
+   vertical-align: top;
+}
+#wb_TextoInfoMateria div
+{
+   text-align: left;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Checkbox1
+{
+   margin: 0;
+}
+#wb_Checkbox1
+{
+   position: relative;
+}
+#wb_Checkbox1, #wb_Checkbox1 *, #wb_Checkbox1 *::before, #wb_Checkbox1 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox1 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox1 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox1 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox1 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox2
+{
+   margin: 0;
+}
+#wb_Checkbox2
+{
+   position: relative;
+}
+#wb_Checkbox2, #wb_Checkbox2 *, #wb_Checkbox2 *::before, #wb_Checkbox2 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox2 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox2 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox2 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox2 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox2 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox3
+{
+   margin: 0;
+}
+#wb_Checkbox3
+{
+   position: relative;
+}
+#wb_Checkbox3, #wb_Checkbox3 *, #wb_Checkbox3 *::before, #wb_Checkbox3 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox3 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox3 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox3 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox3 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox3 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox4
+{
+   margin: 0;
+}
+#wb_Checkbox4
+{
+   position: relative;
+}
+#wb_Checkbox4, #wb_Checkbox4 *, #wb_Checkbox4 *::before, #wb_Checkbox4 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox4 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox4 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox4 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox4 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox4 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox5
+{
+   margin: 0;
+}
+#wb_Checkbox5
+{
+   position: relative;
+}
+#wb_Checkbox5, #wb_Checkbox5 *, #wb_Checkbox5 *::before, #wb_Checkbox5 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox5 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox5 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox5 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox5 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox5 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox6
+{
+   margin: 0;
+}
+#wb_Checkbox6
+{
+   position: relative;
+}
+#wb_Checkbox6, #wb_Checkbox6 *, #wb_Checkbox6 *::before, #wb_Checkbox6 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox6 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox6 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox6 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox6 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox6 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#wb_Checkbox7
+{
+   margin: 0;
+}
+#wb_Checkbox7
+{
+   position: relative;
+}
+#wb_Checkbox7, #wb_Checkbox7 *, #wb_Checkbox7 *::before, #wb_Checkbox7 *::after
+{
+   box-sizing: border-box;
+}
+#wb_Checkbox7 input[type='checkbox']
+{
+   position: absolute;
+   padding: 0;
+   margin: 0;
+   opacity: 0;
+   z-index: 1;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+}
+#wb_Checkbox7 label
+{
+   display: inline-block;
+   vertical-align: middle;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 0;
+   height: 0;
+   padding: 0;
+}
+#wb_Checkbox7 label::before
+{
+   content: "";
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   background-color: #FFFFFF;
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+}
+#wb_Checkbox7 label::after
+{
+   display: inline-block;
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   left: 0;
+   top: 0;
+   padding: 0;
+   text-align: center;
+   line-height: 20px;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::after
+{
+   content: " ";
+   background: url('data:image/svg+xml,%3Csvg%20height%3D%2220%22%20width%3D%2220%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20style%3D%22fill%3A%23FFFFFF%22%20transform%3D%22scale%280.0112%29%22%3E%0D%0A%3Cpath%20transform%3D%22rotate%28180%29%20scale%28-1%2C1%29%20translate%280%2C-1536%29%22%20d%3D%22M1671%20970q0%20-40%20-28%20-68l-724%20-724l-136%20-136q-28%20-28%20-68%20-28t-68%2028l-136%20136l-362%20362q-28%2028%20-28%2068t28%2068l136%20136q28%2028%2068%2028t68%20-28l294%20-295l656%20657q28%2028%2068%2028t68%20-28l136%20-136q28%20-28%2028%20-68z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') no-repeat center center;
+   background-size: 80% 80%
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox7 input[type='checkbox']:focus + label::before
+{
+   outline: thin dotted;
+}
+#ButtonAñadirMaterias
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonAñadirMaterias
+{
+   margin: 0;
+}
+#wb_ButtonAñadirMaterias .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonAñadirMaterias
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonAñadirMaterias :hover
+{
+   color: #2B2B2B;
+}
+#ButtonAñadirMaterias :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonAñadirMaterias .ui-corner-all, #wb_ButtonAñadirMaterias .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonAñadirMaterias .ui-corner-all, #wb_ButtonAñadirMaterias .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonAñadirMaterias .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonAñadirMaterias .ui-state-hover, #wb_ButtonAñadirMaterias .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonAñadirMaterias .ui-state-active, #wb_ButtonAñadirMaterias .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonAñadirMaterias .ui-button .ui-icon
+{
+   background-image: url(images/inscribir-ButtonAñadirMaterias-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonAñadirMaterias .ui-button:hover .ui-icon
+{
+   background-image: url(images/inscribir-ButtonAñadirMaterias-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonAñadirMaterias .ui-button:active .ui-icon
+{
+   background-image: url(images/inscribir-ButtonAñadirMaterias-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonAñadirMaterias .ui-visual-focus
+{
+   box-shadow: none;
+}
+#ButtonEliminarMateria
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+   border-width: 1px;
+   margin: 0;
+}
+#ButtonEliminarMateria .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#ButtonEliminarMateria.ui-corner-all
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#ButtonEliminarMateria.ui-corner-all
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#LineSep2Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep3Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxPago:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineSep5Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#BotonPagar
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+   border-width: 1px;
+   margin: 0;
+}
+#BotonPagar .ui-button
+{
+   position: absolute;
+   padding: 0;
+}
+#BotonPagar.ui-corner-all
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#BotonPagar.ui-corner-all
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 65px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep6Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep4Iest
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line6
+{
+   display: inline-block;
+   width: 207px;
+   z-index: 23;
+}
+#Checkbox5
+{
+   display: inline-block;
+}
+#LineSep2Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#Checkbox6
+{
+   display: inline-block;
+}
+#LineSep3Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#LineSep4Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 19;
+}
+#Checkbox7
+{
+   display: inline-block;
+}
+#wb_ButtonAñadirMaterias
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 5;
+}
+#LineSep5Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 21;
+}
+#LineSep6Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 25;
+}
+#ButtonEliminarMateria
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 7;
+}
+#Table1
+{
+   display: table;
+   width: 100%;
+   height: 186px;
+   z-index: 0;
+}
+#BotonPagar
+{
+   display: inline-block;
+   width: 261px;
+   height: 65px;
+   z-index: 24;
+}
+#wb_Checkbox1
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 9;
+}
+#wb_Checkbox2
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 10;
+}
+#wb_Checkbox3
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 11;
+}
+#wb_Checkbox4
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 12;
+}
+#wb_PageEstudiantes
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 3;
+}
+#ComboboxPago
+{
+   display: inline-block;
+   width: 502px;
+   height: 65px;
+   z-index: 22;
+}
+#wb_Checkbox5
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 13;
+}
+#wb_Checkbox6
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 14;
+}
+#wb_Checkbox7
+{
+   display: inline-block;
+   width: 20px;
+   height: 20px;
+   z-index: 15;
+}
+#Checkbox1
+{
+   display: inline-block;
+}
+#Checkbox2
+{
+   display: inline-block;
+}
+#TablaMaterias
+{
+   display: table;
+   width: 100%;
+   height: 208px;
+   z-index: 18;
+}
+#Checkbox3
+{
+   display: inline-block;
+}
+#ButtonAñadirMaterias
+{
+   width: 100%;
+   height: 100%;
+}
+#Line4
+{
+   display: block;
+   width: 100%;
+   z-index: 16;
+}
+#Checkbox4
+{
+   display: inline-block;
+}
+#LineSep1Iest
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoIEst
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoIEst .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutMaterias
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutMaterias .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutFormMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMaterias
+{
+   padding: 0px 20px 0px 20px;
+}
+#LayoutFormMaterias .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutFormMaterias > .row > .col-1
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-2
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-3
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_PageEstudiantes
+{
+   width: 1014px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep1Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#TablaMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#TablaMaterias .cell0
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMaterias .cell2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell3
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell4
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell5
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#wb_TextoInfoMateria
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Checkbox1
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox1 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox1 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox2
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox2 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox2 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox2 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox3
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox3 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox3 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox3 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox4
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox4 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox4 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox4 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox5
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox5 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox5 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox5 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox6
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox6 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox6 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox6 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox7
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox7 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox7 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox7 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_ButtonAñadirMaterias
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ButtonEliminarMateria
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep3Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxPago
+{
+   width: 502px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSep5Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#BotonPagar
+{
+   width: 261px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   width: 207px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 65px;
+}
+#LineSep6Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep4Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoIEst
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoIEst .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutMaterias
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutMaterias .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutFormMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMaterias
+{
+   padding: 0px 20px 0px 20px;
+}
+#LayoutFormMaterias .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutFormMaterias > .row > .col-1
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-2
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-3
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_PageEstudiantes
+{
+   width: 790px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep1Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#TablaMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMaterias .cell0
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMaterias .cell2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell3
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell4
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell5
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#wb_TextoInfoMateria
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Checkbox1
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox1 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox1 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox2
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox2 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox2 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox2 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox3
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox3 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox3 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox3 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox4
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox4 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox4 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox4 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox5
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox5 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox5 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox5 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox6
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox6 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox6 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox6 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox7
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox7 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox7 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox7 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_ButtonAñadirMaterias
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ButtonEliminarMateria
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep3Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxPago
+{
+   width: 502px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSep5Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#BotonPagar
+{
+   width: 261px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   width: 207px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 65px;
+}
+#LineSep6Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep4Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoIEst
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoIEst .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutMaterias
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutMaterias .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutFormMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMaterias
+{
+   padding: 0px 20px 0px 20px;
+}
+#LayoutFormMaterias .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutFormMaterias > .row > .col-1
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-2
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-3
+{
+   display: block;
+   width: 41.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_PageEstudiantes
+{
+   width: 758px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep1Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#TablaMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMaterias .cell0
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMaterias .cell2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell3
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell4
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell5
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#wb_TextoInfoMateria
+{
+   visibility: visible;
+   display: block;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#wb_Checkbox1
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox1 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox1 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox2
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox2 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox2 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox2 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox3
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox3 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox3 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox3 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox4
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox4 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox4 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox4 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox5
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox5 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox5 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox5 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox6
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox6 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox6 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox6 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox7
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox7 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox7 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox7 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_ButtonAñadirMaterias
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ButtonEliminarMateria
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep3Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxPago
+{
+   width: 502px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSep5Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#BotonPagar
+{
+   width: 261px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   width: 207px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 65px;
+}
+#LineSep6Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep4Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenidoIEst
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoIEst
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoIEst .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoIEst > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutMaterias
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutMaterias .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutMaterias > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutFormMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutFormMaterias
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutFormMaterias
+{
+   padding: 0px 20px 0px 20px;
+}
+#LayoutFormMaterias .row
+{
+   margin-right: -20px;
+   margin-left: -20px;
+}
+#LayoutFormMaterias > .row > .col-1, #LayoutFormMaterias > .row > .col-2, #LayoutFormMaterias > .row > .col-3
+{
+   padding-right: 20px;
+   padding-left: 20px;
+}
+#LayoutFormMaterias > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutFormMaterias > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_PageEstudiantes
+{
+   width: 310px;
+   height: 186px;
+   visibility: visible;
+   display: inline-block;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGrid3 .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGrid3 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep1Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#TablaMaterias
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#TablaMaterias .cell0
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell1
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   text-align: left;
+   line-height: 21px;
+}
+#TablaMaterias .cell2
+{
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 16px;
+}
+#TablaMaterias .cell3
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell4
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#TablaMaterias .cell5
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   text-align: left;
+   line-height: 17px;
+}
+#wb_TextoInfoMateria
+{
+   visibility: visible;
+   display: block;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 10px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 10px;
+}
+#wb_Checkbox1
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox1 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox1 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox1 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox1 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox2
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox2 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox2 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox2 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox2 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox3
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox3 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox3 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox3 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox3 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox4
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox4 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox4 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox4 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox4 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox5
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox5 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox5 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox5 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox5 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox6
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox6 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox6 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox6 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox6 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_Checkbox7
+{
+   width: 20px;
+   height: 20px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#wb_Checkbox7 input[type='checkbox']
+{
+   width: 20px;
+   height: 20px;
+}
+#wb_Checkbox7 label::before
+{
+   width: 20px;
+   height: 20px;
+   border-color: #CCCCCC;
+}
+#wb_Checkbox7 label::after
+{
+   width: 20px;
+   height: 20px;
+   line-height: 20px;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::after
+{
+   color: #FFFFFF;
+}
+#wb_Checkbox7 input[type='checkbox']:checked + label::before
+{
+   background-color: #3370B7;
+   background-image: none;
+   border-color: #3370B7;
+}
+#wb_ButtonAñadirMaterias
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ButtonEliminarMateria
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep3Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxPago
+{
+   width: 502px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSep5Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#BotonPagar
+{
+   width: 261px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   width: 207px;
+   height: 65px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 65px;
+}
+#LineSep6Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSep4Iest
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4Iest
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}

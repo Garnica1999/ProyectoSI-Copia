@@ -1,0 +1,1956 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContenido
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContenido
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContenido .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutContenido > .row > .col-1
+{
+   float: left;
+}
+#LayoutContenido > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContenido:before,
+#LayoutContenido:after,
+#LayoutContenido .row:before,
+#LayoutContenido .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContenido:after,
+#LayoutContenido .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContenido > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#LineSep6
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 26px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextoEstudiante 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextoEstudiante
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_TextoEstudiante div
+{
+   text-align: left;
+}
+#LineSep5
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 19px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutEstudiantes
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutEstudiantes
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutEstudiantes .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   float: left;
+}
+#LayoutEstudiantes > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutEstudiantes > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutEstudiantes:before,
+#LayoutEstudiantes:after,
+#LayoutEstudiantes .row:before,
+#LayoutEstudiantes .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutEstudiantes:after,
+#LayoutEstudiantes .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_IconHorarios
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_IconHorarios:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#IconHorarios
+{
+   height: 213px;
+   width: 204px;
+}
+.IconHorarios
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.IconHorarios:before
+{
+   content: "\e865";
+}
+#IconHorarios i
+{
+   color: #0076C0;
+   display: inline-block;
+   font-size: 204px;
+   line-height: 213px;
+   vertical-align: middle;
+   width: 203px;
+}
+#wb_IconHorarios:hover i
+{
+   color: #337AB7;
+}
+#wb_IconoMonitorias
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_IconoMonitorias:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#IconoMonitorias
+{
+   height: 213px;
+   width: 204px;
+}
+.IconoMonitorias
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Material Icons";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.IconoMonitorias:before
+{
+   content: "\e8a3";
+}
+#IconoMonitorias i
+{
+   color: #0076C0;
+   display: inline-block;
+   font-size: 204px;
+   line-height: 213px;
+   vertical-align: middle;
+   width: 203px;
+}
+#wb_IconoMonitorias:hover i
+{
+   color: #337AB7;
+}
+#LineSep4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 13px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 13px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextoHorario 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextoHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_TextoHorario div
+{
+   text-align: left;
+}
+#wb_TextoMonitoria 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextoMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+}
+#wb_TextoMonitoria div
+{
+   text-align: left;
+}
+#wb_tituloHorario 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_tituloHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_tituloHorario div
+{
+   text-align: center;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 12px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_tituloMonitoria 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_tituloMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_tituloMonitoria div
+{
+   text-align: center;
+}
+#LineSep1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 12px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 12px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 12px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSep1
+{
+   display: block;
+   width: 100%;
+   z-index: 7;
+}
+#LineSep2
+{
+   display: block;
+   width: 100%;
+   z-index: 11;
+}
+#LineSep3
+{
+   display: block;
+   width: 100%;
+   z-index: 9;
+}
+#wb_IconHorarios
+{
+   display: inline-block;
+   width: 204px;
+   height: 213px;
+   text-align: center;
+   z-index: 2;
+}
+#LineSep4
+{
+   display: block;
+   width: 100%;
+   z-index: 3;
+}
+#LineSep5
+{
+   display: block;
+   width: 100%;
+   z-index: 14;
+}
+#LineSep6
+{
+   display: block;
+   width: 100%;
+   z-index: 12;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 1;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 5;
+}
+#wb_IconoMonitorias
+{
+   display: inline-block;
+   width: 204px;
+   height: 213px;
+   text-align: center;
+   z-index: 8;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenido
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenido .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep6
+{
+   width: calc(100% - 0px);
+   height: 26px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 26px;
+}
+#wb_TextoEstudiante
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoEstudiante
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#LineSep5
+{
+   width: calc(100% - 0px);
+   height: 19px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 19px;
+}
+#wb_LayoutEstudiantes
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutEstudiantes
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutEstudiantes
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutEstudiantes .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutEstudiantes > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutEstudiantes > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_IconHorarios
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconHorarios
+{
+   width: 204px;
+   height: 213px;
+}
+#IconHorarios i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#wb_IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+}
+#IconoMonitorias i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#LineSep4
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#LineSep3
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#wb_TextoHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_TextoMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_tituloHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#wb_tituloMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#LineSep1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#LineSep2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenido
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenido .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep6
+{
+   width: calc(100% - 0px);
+   height: 26px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 26px;
+}
+#wb_TextoEstudiante
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoEstudiante
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#LineSep5
+{
+   width: calc(100% - 0px);
+   height: 19px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 19px;
+}
+#wb_LayoutEstudiantes
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutEstudiantes
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutEstudiantes
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutEstudiantes .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutEstudiantes > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutEstudiantes > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_IconHorarios
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconHorarios
+{
+   width: 204px;
+   height: 213px;
+}
+#IconHorarios i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#wb_IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+}
+#IconoMonitorias i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#LineSep4
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#LineSep3
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#wb_TextoHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_TextoMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_tituloHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#wb_tituloMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#LineSep1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#LineSep2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenido
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenido .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep6
+{
+   width: calc(100% - 0px);
+   height: 26px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 26px;
+}
+#wb_TextoEstudiante
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoEstudiante
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#LineSep5
+{
+   width: calc(100% - 0px);
+   height: 19px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 19px;
+}
+#wb_LayoutEstudiantes
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutEstudiantes
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutEstudiantes
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutEstudiantes .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutEstudiantes > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutEstudiantes > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_IconHorarios
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconHorarios
+{
+   width: 204px;
+   height: 213px;
+}
+#IconHorarios i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#wb_IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+}
+#IconoMonitorias i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#LineSep4
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#LineSep3
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#wb_TextoHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_TextoMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_tituloHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#wb_tituloMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#LineSep1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#LineSep2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContenido
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenido
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenido .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenido > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LineSep6
+{
+   width: calc(100% - 0px);
+   height: 26px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 26px;
+}
+#wb_TextoEstudiante
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoEstudiante
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#LineSep5
+{
+   width: calc(100% - 0px);
+   height: 19px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 19px;
+}
+#wb_LayoutEstudiantes
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutEstudiantes
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutEstudiantes
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutEstudiantes .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutEstudiantes > .row > .col-1, #LayoutEstudiantes > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutEstudiantes > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutEstudiantes > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_IconHorarios
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconHorarios
+{
+   width: 204px;
+   height: 213px;
+}
+#IconHorarios i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#wb_IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#IconoMonitorias
+{
+   width: 204px;
+   height: 213px;
+}
+#IconoMonitorias i
+{
+   line-height: 213px;
+   font-size: 204px;
+   width: 203px;
+}
+#LineSep4
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#LineSep3
+{
+   width: calc(100% - 0px);
+   height: 13px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 13px;
+}
+#wb_TextoHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_TextoMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextoMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 17px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#wb_tituloHorario
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloHorario
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#wb_tituloMonitoria
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_tituloMonitoria
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#LineSep1
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+#LineSep2
+{
+   width: calc(100% - 0px);
+   height: 12px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSep2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 12px;
+}
+}
